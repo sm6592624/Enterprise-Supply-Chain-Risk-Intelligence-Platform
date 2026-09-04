@@ -1,0 +1,1001 @@
+shipment_id,warehouse,supplier,category,lead_time_days,promised_lead_time,inventory_holding_cost,unit_order_quantity,stockout_flag,shipment_status
+SHP-1000,WH-Mumbai,Supp-B,Automotive,17,7,7196.27,262,0,Delivered
+SHP-1001,WH-Hyderabad,Supp-C,Consumer Goods,3,6,8262.72,474,0,Delivered
+SHP-1002,WH-Delhi,Supp-A,Industrial Parts,7,7,5691.09,385,0,Delivered
+SHP-1003,WH-Mumbai,Supp-A,Consumer Goods,22,5,9686.84,301,0,Delivered
+SHP-1004,WH-Mumbai,Supp-A,Consumer Goods,13,10,990.85,478,0,Delivered
+SHP-1005,WH-Hyderabad,Supp-A,Automotive,6,11,5295.56,17,0,Delivered
+SHP-1006,WH-Delhi,Supp-D,Consumer Goods,3,6,7325.31,334,0,Delivered
+SHP-1007,WH-Delhi,Supp-A,Automotive,17,12,8695.08,99,1,Delivered
+SHP-1008,WH-Mumbai,Supp-D,Electronics,6,10,2202.93,217,0,Delivered
+SHP-1009,WH-Bengaluru,Supp-D,Electronics,16,8,8100.03,301,0,Delayed
+SHP-1010,WH-Mumbai,Supp-A,Automotive,13,9,5750.72,293,0,Delayed
+SHP-1011,WH-Mumbai,Supp-A,Electronics,5,12,4267.26,127,0,Delivered
+SHP-1012,WH-Mumbai,Supp-B,Industrial Parts,16,7,1751.29,358,0,Delivered
+SHP-1013,WH-Mumbai,Supp-C,Consumer Goods,12,7,8720.31,184,0,Delayed
+SHP-1014,WH-Hyderabad,Supp-A,Industrial Parts,17,8,1994.1,85,0,Delayed
+SHP-1015,WH-Delhi,Supp-B,Consumer Goods,24,5,3442.98,110,1,Delayed
+SHP-1016,WH-Hyderabad,Supp-B,Electronics,7,13,3255.43,423,0,Delivered
+SHP-1017,WH-Hyderabad,Supp-C,Industrial Parts,15,12,8778.43,160,0,Delivered
+SHP-1018,WH-Hyderabad,Supp-D,Electronics,19,12,6890.68,409,1,Delayed
+SHP-1019,WH-Mumbai,Supp-A,Consumer Goods,13,14,8068.47,279,0,Delivered
+SHP-1020,WH-Bengaluru,Supp-C,Automotive,12,10,2879.45,467,1,Delivered
+SHP-1021,WH-Delhi,Supp-A,Automotive,14,11,6436.3,80,0,Delivered
+SHP-1022,WH-Bengaluru,Supp-B,Industrial Parts,22,10,5931.59,189,0,Delivered
+SHP-1023,WH-Hyderabad,Supp-B,Electronics,24,13,8411.89,133,0,Delivered
+SHP-1024,WH-Hyderabad,Supp-D,Electronics,12,7,9107.83,390,0,Delivered
+SHP-1025,WH-Bengaluru,Supp-B,Industrial Parts,24,7,615.49,302,1,Delivered
+SHP-1026,WH-Bengaluru,Supp-B,Automotive,17,7,6903.19,294,0,Delivered
+SHP-1027,WH-Bengaluru,Supp-C,Consumer Goods,16,14,992.44,204,0,Delivered
+SHP-1028,WH-Hyderabad,Supp-A,Industrial Parts,22,7,5714.16,408,0,Delivered
+SHP-1029,WH-Hyderabad,Supp-A,Consumer Goods,16,13,3232.51,237,0,Delivered
+SHP-1030,WH-Delhi,Supp-C,Automotive,5,8,3414.38,440,0,Delivered
+SHP-1031,WH-Delhi,Supp-D,Electronics,12,11,3853.11,439,0,Delayed
+SHP-1032,WH-Hyderabad,Supp-A,Automotive,20,13,6402.28,445,0,Delivered
+SHP-1033,WH-Bengaluru,Supp-B,Industrial Parts,16,11,3673.47,284,0,Delivered
+SHP-1034,WH-Bengaluru,Supp-A,Electronics,5,13,7460.64,470,0,Delivered
+SHP-1035,WH-Delhi,Supp-B,Industrial Parts,22,7,4343.01,115,0,Delayed
+SHP-1036,WH-Hyderabad,Supp-D,Industrial Parts,14,8,1149.36,30,0,Delivered
+SHP-1037,WH-Delhi,Supp-C,Automotive,23,12,7945.72,73,0,Delivered
+SHP-1038,WH-Delhi,Supp-A,Industrial Parts,20,10,3214.7,174,0,Delivered
+SHP-1039,WH-Mumbai,Supp-C,Automotive,3,9,4611.29,36,0,Delivered
+SHP-1040,WH-Mumbai,Supp-A,Electronics,15,8,7011.72,320,0,Delayed
+SHP-1041,WH-Mumbai,Supp-B,Automotive,5,12,3658.33,294,0,Delayed
+SHP-1042,WH-Bengaluru,Supp-C,Electronics,17,5,1037.56,157,0,Delivered
+SHP-1043,WH-Hyderabad,Supp-A,Automotive,22,13,4052.25,290,0,Delivered
+SHP-1044,WH-Hyderabad,Supp-B,Consumer Goods,21,5,9472.26,335,0,Delivered
+SHP-1045,WH-Hyderabad,Supp-C,Consumer Goods,15,12,6596.48,328,0,Delivered
+SHP-1046,WH-Hyderabad,Supp-C,Industrial Parts,16,8,6879.05,173,0,Delivered
+SHP-1047,WH-Mumbai,Supp-A,Automotive,4,13,6506.68,395,0,Delivered
+SHP-1048,WH-Bengaluru,Supp-A,Automotive,9,9,2390.43,415,1,Delivered
+SHP-1049,WH-Bengaluru,Supp-A,Electronics,17,7,4474.17,233,0,Delivered
+SHP-1050,WH-Mumbai,Supp-B,Industrial Parts,11,13,7633.93,281,0,Delayed
+SHP-1051,WH-Bengaluru,Supp-A,Automotive,5,13,1463.04,155,1,Delivered
+SHP-1052,WH-Mumbai,Supp-C,Industrial Parts,19,8,3139.6,462,0,Delayed
+SHP-1053,WH-Hyderabad,Supp-C,Consumer Goods,3,8,3125.03,447,0,Delivered
+SHP-1054,WH-Mumbai,Supp-A,Automotive,18,12,4604.18,365,0,Delivered
+SHP-1055,WH-Hyderabad,Supp-A,Automotive,14,6,9813.5,39,0,Delivered
+SHP-1056,WH-Hyderabad,Supp-D,Industrial Parts,5,13,1141.27,54,1,Delivered
+SHP-1057,WH-Delhi,Supp-C,Automotive,12,10,5427.66,284,1,Delivered
+SHP-1058,WH-Mumbai,Supp-B,Industrial Parts,8,13,2203.96,480,0,Delivered
+SHP-1059,WH-Delhi,Supp-D,Automotive,13,12,9721.43,43,0,Cancelled
+SHP-1060,WH-Mumbai,Supp-A,Electronics,11,11,1576.38,150,1,Delivered
+SHP-1061,WH-Mumbai,Supp-A,Industrial Parts,8,5,4334.21,436,0,Delivered
+SHP-1062,WH-Delhi,Supp-C,Automotive,14,7,7509.91,327,0,Delayed
+SHP-1063,WH-Delhi,Supp-A,Consumer Goods,8,6,7193.27,383,1,Delivered
+SHP-1064,WH-Mumbai,Supp-B,Automotive,18,9,4515.92,230,0,Delivered
+SHP-1065,WH-Bengaluru,Supp-C,Consumer Goods,11,9,3791.98,365,0,Delivered
+SHP-1066,WH-Hyderabad,Supp-A,Consumer Goods,11,9,4277.32,31,0,Delayed
+SHP-1067,WH-Delhi,Supp-C,Electronics,5,8,3010.62,189,1,Cancelled
+SHP-1068,WH-Hyderabad,Supp-A,Industrial Parts,21,9,2450.66,445,0,Cancelled
+SHP-1069,WH-Bengaluru,Supp-A,Automotive,5,7,5088.88,376,0,Delivered
+SHP-1070,WH-Bengaluru,Supp-A,Electronics,23,5,3051.07,429,0,Delayed
+SHP-1071,WH-Bengaluru,Supp-B,Automotive,8,9,3230.89,338,0,Delivered
+SHP-1072,WH-Delhi,Supp-B,Consumer Goods,23,13,6739.18,240,0,Delivered
+SHP-1073,WH-Bengaluru,Supp-C,Industrial Parts,2,13,9701.1,412,0,Delivered
+SHP-1074,WH-Delhi,Supp-A,Automotive,13,8,6234.55,47,0,Delivered
+SHP-1075,WH-Bengaluru,Supp-A,Automotive,14,7,1231.3,79,0,Cancelled
+SHP-1076,WH-Hyderabad,Supp-B,Consumer Goods,11,5,1218.04,125,1,Delayed
+SHP-1077,WH-Hyderabad,Supp-A,Automotive,16,6,9538.52,248,0,Delivered
+SHP-1078,WH-Mumbai,Supp-B,Automotive,14,12,3324.26,344,1,Delivered
+SHP-1079,WH-Hyderabad,Supp-A,Consumer Goods,24,5,1374.64,450,0,Delivered
+SHP-1080,WH-Mumbai,Supp-C,Electronics,23,12,6190.92,157,0,Delayed
+SHP-1081,WH-Hyderabad,Supp-A,Consumer Goods,23,11,6424.66,18,0,Delivered
+SHP-1082,WH-Delhi,Supp-A,Electronics,22,12,6660.8,297,0,Delivered
+SHP-1083,WH-Hyderabad,Supp-D,Industrial Parts,23,10,3040.32,397,1,Delivered
+SHP-1084,WH-Mumbai,Supp-B,Electronics,10,13,643.55,59,0,Delivered
+SHP-1085,WH-Mumbai,Supp-A,Electronics,10,7,9667.65,347,0,Delivered
+SHP-1086,WH-Bengaluru,Supp-A,Industrial Parts,16,14,2883.48,14,0,Delayed
+SHP-1087,WH-Delhi,Supp-D,Electronics,11,8,6922.25,413,0,Delivered
+SHP-1088,WH-Hyderabad,Supp-D,Consumer Goods,11,10,7212.98,352,0,Delivered
+SHP-1089,WH-Bengaluru,Supp-B,Electronics,9,12,6295.07,135,0,Delivered
+SHP-1090,WH-Hyderabad,Supp-D,Industrial Parts,17,9,3472.62,84,0,Delivered
+SHP-1091,WH-Hyderabad,Supp-C,Consumer Goods,18,7,3075.41,174,0,Cancelled
+SHP-1092,WH-Bengaluru,Supp-D,Industrial Parts,6,10,6177.85,287,0,Delivered
+SHP-1093,WH-Bengaluru,Supp-C,Industrial Parts,5,8,8727.91,451,0,Delivered
+SHP-1094,WH-Bengaluru,Supp-B,Automotive,19,13,9493.97,333,0,Delivered
+SHP-1095,WH-Bengaluru,Supp-B,Automotive,20,7,1506.11,486,0,Delivered
+SHP-1096,WH-Bengaluru,Supp-B,Industrial Parts,5,8,1970.87,309,0,Delivered
+SHP-1097,WH-Hyderabad,Supp-B,Industrial Parts,8,11,9474.99,299,0,Delivered
+SHP-1098,WH-Bengaluru,Supp-B,Industrial Parts,11,11,7497.08,86,0,Delivered
+SHP-1099,WH-Delhi,Supp-C,Automotive,19,8,8888.44,307,0,Delivered
+SHP-1100,WH-Mumbai,Supp-C,Automotive,20,10,2425.01,146,1,Delivered
+SHP-1101,WH-Bengaluru,Supp-B,Electronics,5,7,6082.07,115,0,Delivered
+SHP-1102,WH-Bengaluru,Supp-D,Electronics,11,10,7160.83,104,0,Delivered
+SHP-1103,WH-Hyderabad,Supp-A,Industrial Parts,2,6,6961.06,144,1,Delivered
+SHP-1104,WH-Bengaluru,Supp-B,Consumer Goods,24,12,4377.44,77,0,Delayed
+SHP-1105,WH-Bengaluru,Supp-D,Consumer Goods,19,6,646.25,156,0,Delayed
+SHP-1106,WH-Bengaluru,Supp-A,Automotive,6,11,6037.8,499,1,Delivered
+SHP-1107,WH-Hyderabad,Supp-B,Automotive,16,13,2904.46,487,0,Delivered
+SHP-1108,WH-Bengaluru,Supp-B,Automotive,18,5,4777.42,168,0,Delivered
+SHP-1109,WH-Mumbai,Supp-C,Industrial Parts,4,12,9597.02,393,0,Delivered
+SHP-1110,WH-Hyderabad,Supp-A,Consumer Goods,13,11,4290.84,172,0,Delayed
+SHP-1111,WH-Mumbai,Supp-A,Electronics,3,10,8478.12,450,0,Delivered
+SHP-1112,WH-Hyderabad,Supp-D,Industrial Parts,2,10,2291.14,350,0,Delivered
+SHP-1113,WH-Bengaluru,Supp-C,Electronics,24,10,6888.37,198,0,Delayed
+SHP-1114,WH-Mumbai,Supp-C,Electronics,22,13,9781.57,424,0,Delayed
+SHP-1115,WH-Hyderabad,Supp-C,Industrial Parts,18,6,1467.98,348,1,Delivered
+SHP-1116,WH-Delhi,Supp-C,Electronics,23,5,579.04,104,0,Delivered
+SHP-1117,WH-Bengaluru,Supp-A,Consumer Goods,17,10,4619.04,190,1,Delivered
+SHP-1118,WH-Hyderabad,Supp-A,Electronics,6,14,1379.94,297,1,Delivered
+SHP-1119,WH-Delhi,Supp-B,Consumer Goods,16,12,7609.65,331,0,Delayed
+SHP-1120,WH-Hyderabad,Supp-B,Consumer Goods,4,7,9188.21,196,0,Delayed
+SHP-1121,WH-Delhi,Supp-C,Consumer Goods,8,14,4623.2,381,0,Delayed
+SHP-1122,WH-Bengaluru,Supp-C,Automotive,12,5,2957.76,147,1,Delivered
+SHP-1123,WH-Mumbai,Supp-C,Electronics,11,13,4626.83,139,0,Delayed
+SHP-1124,WH-Delhi,Supp-B,Industrial Parts,10,5,7372.75,203,0,Delivered
+SHP-1125,WH-Hyderabad,Supp-D,Industrial Parts,15,7,586.01,325,0,Delivered
+SHP-1126,WH-Bengaluru,Supp-D,Electronics,14,12,6099.81,481,0,Delivered
+SHP-1127,WH-Delhi,Supp-B,Automotive,3,7,6326.27,282,0,Delivered
+SHP-1128,WH-Hyderabad,Supp-B,Automotive,4,8,6558.04,361,0,Delayed
+SHP-1129,WH-Hyderabad,Supp-B,Consumer Goods,8,12,2799.21,153,0,Delivered
+SHP-1130,WH-Hyderabad,Supp-B,Electronics,22,5,7283.5,25,0,Delivered
+SHP-1131,WH-Delhi,Supp-B,Electronics,19,10,1368.22,311,1,Delivered
+SHP-1132,WH-Delhi,Supp-B,Industrial Parts,4,5,2393.07,432,0,Delivered
+SHP-1133,WH-Delhi,Supp-C,Electronics,11,5,8835.97,254,1,Delivered
+SHP-1134,WH-Mumbai,Supp-C,Automotive,23,12,7517.87,424,0,Delivered
+SHP-1135,WH-Delhi,Supp-C,Electronics,8,8,630.58,116,0,Delayed
+SHP-1136,WH-Delhi,Supp-C,Industrial Parts,10,5,2859.57,97,0,Delivered
+SHP-1137,WH-Delhi,Supp-B,Consumer Goods,18,14,2536.86,138,0,Delivered
+SHP-1138,WH-Mumbai,Supp-D,Industrial Parts,12,11,3072.66,404,1,Delivered
+SHP-1139,WH-Delhi,Supp-A,Industrial Parts,8,9,2851.82,384,0,Delayed
+SHP-1140,WH-Hyderabad,Supp-B,Consumer Goods,15,9,1094.0,350,1,Delivered
+SHP-1141,WH-Delhi,Supp-A,Industrial Parts,20,5,4859.93,13,0,Delivered
+SHP-1142,WH-Hyderabad,Supp-D,Industrial Parts,5,14,7460.97,336,0,Delivered
+SHP-1143,WH-Hyderabad,Supp-C,Electronics,7,10,6263.95,419,0,Delivered
+SHP-1144,WH-Hyderabad,Supp-D,Electronics,11,13,6892.28,376,0,Delivered
+SHP-1145,WH-Mumbai,Supp-B,Consumer Goods,8,13,1270.92,315,0,Delivered
+SHP-1146,WH-Mumbai,Supp-C,Electronics,14,12,9539.16,405,1,Delivered
+SHP-1147,WH-Mumbai,Supp-B,Electronics,15,9,8465.67,104,0,Delivered
+SHP-1148,WH-Delhi,Supp-C,Industrial Parts,5,5,8148.36,218,0,Delivered
+SHP-1149,WH-Hyderabad,Supp-A,Automotive,9,13,8318.35,234,0,Delivered
+SHP-1150,WH-Mumbai,Supp-A,Electronics,6,5,9360.75,468,0,Delivered
+SHP-1151,WH-Mumbai,Supp-A,Automotive,2,12,5670.41,357,0,Delivered
+SHP-1152,WH-Delhi,Supp-D,Electronics,5,9,2402.68,489,0,Delivered
+SHP-1153,WH-Mumbai,Supp-B,Electronics,4,7,6359.44,330,0,Delivered
+SHP-1154,WH-Delhi,Supp-D,Consumer Goods,10,11,7557.37,56,0,Delivered
+SHP-1155,WH-Bengaluru,Supp-A,Consumer Goods,9,11,7510.22,485,0,Delayed
+SHP-1156,WH-Mumbai,Supp-B,Consumer Goods,2,13,5453.77,190,0,Cancelled
+SHP-1157,WH-Bengaluru,Supp-A,Automotive,7,11,1150.36,115,0,Delivered
+SHP-1158,WH-Delhi,Supp-D,Industrial Parts,10,7,4025.57,208,0,Delivered
+SHP-1159,WH-Hyderabad,Supp-D,Electronics,8,5,9247.28,395,0,Delivered
+SHP-1160,WH-Mumbai,Supp-D,Electronics,5,12,6052.26,115,0,Delayed
+SHP-1161,WH-Delhi,Supp-A,Electronics,14,7,5614.15,289,0,Delivered
+SHP-1162,WH-Hyderabad,Supp-B,Automotive,18,12,3054.11,269,0,Delivered
+SHP-1163,WH-Hyderabad,Supp-B,Consumer Goods,3,12,4000.26,117,0,Delayed
+SHP-1164,WH-Bengaluru,Supp-A,Industrial Parts,6,9,9005.79,28,0,Delivered
+SHP-1165,WH-Delhi,Supp-B,Automotive,13,5,6831.4,419,0,Delayed
+SHP-1166,WH-Hyderabad,Supp-A,Consumer Goods,22,14,7980.18,468,0,Delivered
+SHP-1167,WH-Mumbai,Supp-B,Automotive,9,11,4816.28,305,0,Delivered
+SHP-1168,WH-Mumbai,Supp-C,Industrial Parts,7,14,6487.35,315,0,Delayed
+SHP-1169,WH-Bengaluru,Supp-C,Consumer Goods,9,9,2859.64,180,1,Delivered
+SHP-1170,WH-Hyderabad,Supp-D,Automotive,19,12,7201.88,340,0,Delivered
+SHP-1171,WH-Delhi,Supp-C,Industrial Parts,4,13,4562.21,204,0,Delivered
+SHP-1172,WH-Mumbai,Supp-C,Electronics,23,11,4704.18,21,0,Cancelled
+SHP-1173,WH-Hyderabad,Supp-C,Industrial Parts,13,11,6668.56,204,1,Delivered
+SHP-1174,WH-Hyderabad,Supp-A,Electronics,4,5,9394.67,499,0,Delivered
+SHP-1175,WH-Bengaluru,Supp-C,Automotive,23,8,1108.06,292,1,Delivered
+SHP-1176,WH-Mumbai,Supp-C,Consumer Goods,7,6,8335.06,378,0,Delivered
+SHP-1177,WH-Mumbai,Supp-D,Consumer Goods,3,6,3277.64,191,0,Delivered
+SHP-1178,WH-Delhi,Supp-C,Automotive,24,6,4717.23,459,0,Delivered
+SHP-1179,WH-Mumbai,Supp-C,Consumer Goods,13,8,708.18,314,0,Delivered
+SHP-1180,WH-Delhi,Supp-B,Consumer Goods,3,5,3359.94,153,1,Delayed
+SHP-1181,WH-Mumbai,Supp-D,Electronics,7,8,5275.0,395,0,Delivered
+SHP-1182,WH-Bengaluru,Supp-D,Automotive,18,6,1033.67,325,0,Delivered
+SHP-1183,WH-Mumbai,Supp-D,Industrial Parts,4,9,5165.41,191,0,Delayed
+SHP-1184,WH-Delhi,Supp-D,Electronics,3,7,9307.55,39,0,Delivered
+SHP-1185,WH-Delhi,Supp-D,Automotive,24,12,1501.24,93,0,Delayed
+SHP-1186,WH-Bengaluru,Supp-D,Electronics,21,8,7762.19,175,0,Delivered
+SHP-1187,WH-Mumbai,Supp-A,Industrial Parts,9,5,4391.88,293,1,Delivered
+SHP-1188,WH-Mumbai,Supp-C,Industrial Parts,23,5,6724.15,290,0,Delivered
+SHP-1189,WH-Bengaluru,Supp-D,Automotive,13,14,2972.25,105,0,Delivered
+SHP-1190,WH-Mumbai,Supp-C,Industrial Parts,5,7,2015.18,390,0,Delivered
+SHP-1191,WH-Mumbai,Supp-C,Electronics,6,13,2024.39,275,0,Delivered
+SHP-1192,WH-Delhi,Supp-A,Industrial Parts,14,11,1169.67,453,0,Delayed
+SHP-1193,WH-Mumbai,Supp-D,Electronics,16,6,2263.64,307,1,Delivered
+SHP-1194,WH-Mumbai,Supp-B,Electronics,24,13,6810.08,305,0,Delivered
+SHP-1195,WH-Bengaluru,Supp-A,Industrial Parts,17,14,8876.06,234,0,Delivered
+SHP-1196,WH-Bengaluru,Supp-B,Automotive,11,6,8234.19,342,0,Cancelled
+SHP-1197,WH-Hyderabad,Supp-C,Consumer Goods,24,7,7008.78,370,1,Delivered
+SHP-1198,WH-Delhi,Supp-C,Industrial Parts,17,14,1549.1,383,0,Delivered
+SHP-1199,WH-Mumbai,Supp-A,Electronics,13,6,3247.28,51,0,Delivered
+SHP-1200,WH-Mumbai,Supp-A,Electronics,18,7,3443.17,312,0,Delivered
+SHP-1201,WH-Hyderabad,Supp-B,Industrial Parts,17,10,2874.59,430,0,Delivered
+SHP-1202,WH-Mumbai,Supp-D,Automotive,13,13,5392.55,255,0,Delayed
+SHP-1203,WH-Delhi,Supp-B,Automotive,9,13,5587.76,217,0,Delivered
+SHP-1204,WH-Hyderabad,Supp-A,Electronics,21,11,3890.42,246,0,Delayed
+SHP-1205,WH-Delhi,Supp-B,Electronics,4,7,3861.0,31,0,Delivered
+SHP-1206,WH-Hyderabad,Supp-A,Automotive,17,8,8371.28,194,0,Delivered
+SHP-1207,WH-Hyderabad,Supp-B,Consumer Goods,14,10,7998.28,477,0,Delayed
+SHP-1208,WH-Bengaluru,Supp-A,Industrial Parts,24,9,3424.06,251,0,Delivered
+SHP-1209,WH-Delhi,Supp-A,Electronics,20,6,9180.99,372,0,Cancelled
+SHP-1210,WH-Mumbai,Supp-A,Electronics,9,10,9551.74,292,0,Delivered
+SHP-1211,WH-Mumbai,Supp-D,Automotive,23,7,3604.05,50,0,Delayed
+SHP-1212,WH-Delhi,Supp-B,Industrial Parts,6,12,3867.04,345,0,Delivered
+SHP-1213,WH-Mumbai,Supp-B,Automotive,21,6,5303.52,171,0,Delivered
+SHP-1214,WH-Mumbai,Supp-B,Industrial Parts,9,5,9440.65,169,0,Delivered
+SHP-1215,WH-Delhi,Supp-A,Industrial Parts,13,13,8825.03,483,1,Delivered
+SHP-1216,WH-Hyderabad,Supp-B,Industrial Parts,2,7,1474.4,98,0,Delivered
+SHP-1217,WH-Delhi,Supp-B,Electronics,22,5,4230.94,331,1,Delivered
+SHP-1218,WH-Hyderabad,Supp-A,Consumer Goods,21,11,5757.03,21,0,Delivered
+SHP-1219,WH-Mumbai,Supp-C,Automotive,7,14,5279.76,433,0,Delivered
+SHP-1220,WH-Mumbai,Supp-A,Consumer Goods,23,9,2341.7,82,0,Delayed
+SHP-1221,WH-Mumbai,Supp-B,Automotive,19,9,8658.76,85,0,Delivered
+SHP-1222,WH-Bengaluru,Supp-A,Industrial Parts,9,5,6930.94,355,0,Delivered
+SHP-1223,WH-Hyderabad,Supp-C,Electronics,8,13,8460.13,210,0,Delivered
+SHP-1224,WH-Bengaluru,Supp-A,Consumer Goods,2,11,8658.26,19,1,Delivered
+SHP-1225,WH-Bengaluru,Supp-B,Electronics,22,12,7609.38,361,0,Delivered
+SHP-1226,WH-Delhi,Supp-C,Automotive,17,13,4672.5,235,0,Delivered
+SHP-1227,WH-Bengaluru,Supp-D,Electronics,13,10,6300.19,185,0,Delayed
+SHP-1228,WH-Delhi,Supp-B,Electronics,7,9,2023.47,285,0,Delayed
+SHP-1229,WH-Delhi,Supp-C,Consumer Goods,21,10,6899.63,48,0,Delivered
+SHP-1230,WH-Bengaluru,Supp-C,Industrial Parts,3,6,2202.91,69,0,Delivered
+SHP-1231,WH-Hyderabad,Supp-D,Electronics,15,8,7092.52,75,1,Delivered
+SHP-1232,WH-Hyderabad,Supp-A,Industrial Parts,5,7,2681.18,330,0,Delivered
+SHP-1233,WH-Hyderabad,Supp-A,Automotive,2,11,1616.74,444,0,Delivered
+SHP-1234,WH-Hyderabad,Supp-B,Electronics,24,13,2070.2,133,0,Delivered
+SHP-1235,WH-Hyderabad,Supp-D,Consumer Goods,19,9,518.93,173,0,Delivered
+SHP-1236,WH-Bengaluru,Supp-A,Automotive,14,10,7328.03,417,0,Delivered
+SHP-1237,WH-Bengaluru,Supp-D,Automotive,3,14,7457.81,420,0,Delivered
+SHP-1238,WH-Mumbai,Supp-A,Consumer Goods,10,6,5391.87,395,0,Delayed
+SHP-1239,WH-Hyderabad,Supp-C,Electronics,22,7,2032.95,168,0,Delivered
+SHP-1240,WH-Bengaluru,Supp-A,Electronics,3,7,1293.77,66,0,Delayed
+SHP-1241,WH-Mumbai,Supp-D,Automotive,10,13,681.73,87,1,Cancelled
+SHP-1242,WH-Hyderabad,Supp-C,Electronics,2,11,2074.61,203,0,Delivered
+SHP-1243,WH-Delhi,Supp-C,Industrial Parts,12,12,8963.13,294,0,Delivered
+SHP-1244,WH-Mumbai,Supp-C,Consumer Goods,4,14,2794.6,24,0,Delivered
+SHP-1245,WH-Bengaluru,Supp-D,Industrial Parts,21,13,3865.58,21,0,Cancelled
+SHP-1246,WH-Delhi,Supp-B,Electronics,24,10,1500.78,110,0,Cancelled
+SHP-1247,WH-Delhi,Supp-B,Automotive,5,8,2612.43,165,0,Delivered
+SHP-1248,WH-Delhi,Supp-B,Consumer Goods,19,5,5432.63,349,0,Delivered
+SHP-1249,WH-Mumbai,Supp-D,Electronics,24,12,6273.65,134,0,Delayed
+SHP-1250,WH-Bengaluru,Supp-C,Electronics,7,11,2830.85,368,0,Delivered
+SHP-1251,WH-Delhi,Supp-B,Automotive,4,6,1048.46,289,0,Delayed
+SHP-1252,WH-Hyderabad,Supp-D,Automotive,23,12,4214.81,414,1,Delayed
+SHP-1253,WH-Delhi,Supp-B,Industrial Parts,12,9,2724.93,403,1,Delivered
+SHP-1254,WH-Delhi,Supp-A,Consumer Goods,16,11,2585.76,119,0,Delivered
+SHP-1255,WH-Mumbai,Supp-B,Consumer Goods,23,8,9618.7,343,0,Delivered
+SHP-1256,WH-Mumbai,Supp-B,Automotive,6,9,6354.85,366,0,Delivered
+SHP-1257,WH-Bengaluru,Supp-C,Industrial Parts,21,12,5790.35,155,1,Delivered
+SHP-1258,WH-Hyderabad,Supp-D,Consumer Goods,11,5,4449.86,225,0,Delayed
+SHP-1259,WH-Mumbai,Supp-C,Automotive,13,5,4574.97,407,1,Delayed
+SHP-1260,WH-Delhi,Supp-C,Electronics,16,8,5638.6,171,0,Delayed
+SHP-1261,WH-Bengaluru,Supp-C,Consumer Goods,18,7,7116.08,137,0,Delivered
+SHP-1262,WH-Delhi,Supp-C,Industrial Parts,11,14,7170.39,323,0,Delayed
+SHP-1263,WH-Delhi,Supp-C,Industrial Parts,7,6,2131.09,341,1,Delivered
+SHP-1264,WH-Mumbai,Supp-B,Industrial Parts,19,7,5251.07,159,1,Delivered
+SHP-1265,WH-Bengaluru,Supp-C,Electronics,14,5,4413.6,463,0,Delivered
+SHP-1266,WH-Hyderabad,Supp-C,Consumer Goods,4,5,8770.01,45,0,Delivered
+SHP-1267,WH-Hyderabad,Supp-D,Consumer Goods,11,10,6498.48,182,0,Delayed
+SHP-1268,WH-Mumbai,Supp-A,Electronics,15,9,5558.79,429,0,Delivered
+SHP-1269,WH-Mumbai,Supp-B,Consumer Goods,7,12,1596.25,31,0,Delivered
+SHP-1270,WH-Bengaluru,Supp-B,Electronics,4,6,6253.56,215,0,Delivered
+SHP-1271,WH-Hyderabad,Supp-B,Electronics,17,8,1613.44,136,0,Delivered
+SHP-1272,WH-Hyderabad,Supp-C,Electronics,8,12,3703.46,345,0,Delivered
+SHP-1273,WH-Hyderabad,Supp-C,Industrial Parts,21,10,1857.0,454,0,Delivered
+SHP-1274,WH-Delhi,Supp-C,Consumer Goods,15,5,7074.7,365,0,Delivered
+SHP-1275,WH-Hyderabad,Supp-D,Electronics,10,8,2459.4,449,0,Delivered
+SHP-1276,WH-Delhi,Supp-A,Consumer Goods,16,5,4222.66,226,0,Delayed
+SHP-1277,WH-Bengaluru,Supp-C,Industrial Parts,22,6,9008.91,105,0,Delivered
+SHP-1278,WH-Delhi,Supp-A,Electronics,4,9,2441.01,426,0,Delivered
+SHP-1279,WH-Bengaluru,Supp-D,Automotive,3,12,5324.15,438,0,Delivered
+SHP-1280,WH-Hyderabad,Supp-B,Industrial Parts,3,12,4483.08,173,0,Delivered
+SHP-1281,WH-Hyderabad,Supp-C,Automotive,4,7,672.18,157,0,Delivered
+SHP-1282,WH-Bengaluru,Supp-A,Consumer Goods,19,8,8031.2,27,0,Delivered
+SHP-1283,WH-Mumbai,Supp-A,Consumer Goods,15,14,1155.94,303,0,Delayed
+SHP-1284,WH-Bengaluru,Supp-C,Industrial Parts,21,10,5005.42,204,1,Delivered
+SHP-1285,WH-Mumbai,Supp-B,Consumer Goods,19,14,5826.44,160,1,Delayed
+SHP-1286,WH-Delhi,Supp-B,Automotive,11,7,6470.05,489,0,Cancelled
+SHP-1287,WH-Delhi,Supp-B,Electronics,3,6,7042.0,374,0,Delivered
+SHP-1288,WH-Delhi,Supp-D,Electronics,23,10,2906.09,132,0,Delivered
+SHP-1289,WH-Hyderabad,Supp-A,Electronics,2,9,594.8,409,1,Delivered
+SHP-1290,WH-Delhi,Supp-A,Industrial Parts,5,14,7372.71,196,0,Cancelled
+SHP-1291,WH-Mumbai,Supp-A,Consumer Goods,15,9,5588.74,462,0,Delayed
+SHP-1292,WH-Delhi,Supp-D,Automotive,2,14,8443.12,461,0,Delivered
+SHP-1293,WH-Bengaluru,Supp-A,Consumer Goods,15,9,8303.19,158,0,Delayed
+SHP-1294,WH-Bengaluru,Supp-D,Consumer Goods,17,14,8511.6,113,0,Delivered
+SHP-1295,WH-Hyderabad,Supp-B,Consumer Goods,23,9,5108.4,252,0,Cancelled
+SHP-1296,WH-Bengaluru,Supp-C,Electronics,15,7,3669.47,471,0,Cancelled
+SHP-1297,WH-Mumbai,Supp-A,Automotive,21,11,8019.8,240,0,Delivered
+SHP-1298,WH-Delhi,Supp-A,Automotive,4,10,4787.29,488,0,Delivered
+SHP-1299,WH-Hyderabad,Supp-B,Consumer Goods,4,8,2242.7,215,0,Delivered
+SHP-1300,WH-Delhi,Supp-C,Electronics,10,6,8622.25,207,1,Delivered
+SHP-1301,WH-Delhi,Supp-D,Electronics,7,13,8884.32,405,0,Delayed
+SHP-1302,WH-Mumbai,Supp-C,Automotive,14,5,4929.94,409,0,Delivered
+SHP-1303,WH-Bengaluru,Supp-B,Electronics,22,8,1219.15,346,0,Delivered
+SHP-1304,WH-Bengaluru,Supp-B,Electronics,3,5,4184.35,96,0,Delivered
+SHP-1305,WH-Delhi,Supp-C,Electronics,9,10,8133.61,151,1,Cancelled
+SHP-1306,WH-Hyderabad,Supp-D,Industrial Parts,22,8,9066.85,326,0,Delivered
+SHP-1307,WH-Bengaluru,Supp-D,Consumer Goods,3,9,2432.99,208,1,Delivered
+SHP-1308,WH-Hyderabad,Supp-A,Automotive,5,9,1136.25,55,0,Delivered
+SHP-1309,WH-Bengaluru,Supp-D,Automotive,16,13,8834.83,297,1,Cancelled
+SHP-1310,WH-Hyderabad,Supp-C,Industrial Parts,5,5,4199.35,24,0,Delayed
+SHP-1311,WH-Mumbai,Supp-B,Consumer Goods,14,6,5646.73,53,0,Delivered
+SHP-1312,WH-Hyderabad,Supp-A,Automotive,13,10,9696.63,410,0,Delivered
+SHP-1313,WH-Mumbai,Supp-A,Electronics,14,9,1132.36,178,1,Delivered
+SHP-1314,WH-Mumbai,Supp-B,Automotive,15,11,6659.02,319,1,Delivered
+SHP-1315,WH-Hyderabad,Supp-D,Electronics,21,7,1204.0,53,0,Delivered
+SHP-1316,WH-Mumbai,Supp-B,Industrial Parts,19,7,4066.95,107,1,Delayed
+SHP-1317,WH-Delhi,Supp-D,Electronics,7,14,8136.24,270,0,Delivered
+SHP-1318,WH-Mumbai,Supp-B,Automotive,12,6,4617.99,118,0,Delayed
+SHP-1319,WH-Bengaluru,Supp-C,Automotive,3,7,9973.23,292,0,Delivered
+SHP-1320,WH-Hyderabad,Supp-D,Automotive,24,14,5811.06,381,0,Delivered
+SHP-1321,WH-Delhi,Supp-C,Industrial Parts,20,5,3551.04,352,0,Delivered
+SHP-1322,WH-Hyderabad,Supp-A,Industrial Parts,20,9,2591.06,113,0,Delivered
+SHP-1323,WH-Bengaluru,Supp-B,Consumer Goods,6,9,3829.95,265,0,Delivered
+SHP-1324,WH-Bengaluru,Supp-A,Automotive,20,11,4039.07,388,0,Delivered
+SHP-1325,WH-Bengaluru,Supp-A,Electronics,3,8,1152.78,215,0,Delivered
+SHP-1326,WH-Mumbai,Supp-A,Industrial Parts,11,7,4010.95,344,0,Delivered
+SHP-1327,WH-Mumbai,Supp-A,Automotive,3,5,4910.27,52,0,Delivered
+SHP-1328,WH-Hyderabad,Supp-B,Automotive,12,12,7366.01,362,0,Cancelled
+SHP-1329,WH-Hyderabad,Supp-A,Industrial Parts,19,7,6738.93,254,0,Delivered
+SHP-1330,WH-Delhi,Supp-B,Consumer Goods,16,6,7233.27,296,0,Delayed
+SHP-1331,WH-Delhi,Supp-B,Industrial Parts,10,8,579.45,364,0,Delivered
+SHP-1332,WH-Hyderabad,Supp-C,Industrial Parts,24,7,2567.84,282,0,Delayed
+SHP-1333,WH-Mumbai,Supp-D,Electronics,20,5,6786.0,485,0,Delivered
+SHP-1334,WH-Bengaluru,Supp-D,Electronics,10,7,5097.9,92,0,Delayed
+SHP-1335,WH-Hyderabad,Supp-B,Consumer Goods,4,6,550.48,119,0,Delivered
+SHP-1336,WH-Delhi,Supp-C,Automotive,22,12,8142.7,447,0,Delivered
+SHP-1337,WH-Mumbai,Supp-B,Industrial Parts,10,10,7841.69,199,0,Delivered
+SHP-1338,WH-Hyderabad,Supp-B,Consumer Goods,15,13,5709.98,480,1,Delivered
+SHP-1339,WH-Hyderabad,Supp-B,Electronics,20,12,1131.4,297,1,Delivered
+SHP-1340,WH-Mumbai,Supp-C,Industrial Parts,8,14,7781.89,433,0,Delivered
+SHP-1341,WH-Hyderabad,Supp-D,Automotive,17,7,6045.28,406,0,Delivered
+SHP-1342,WH-Mumbai,Supp-C,Electronics,17,9,7928.62,260,0,Delayed
+SHP-1343,WH-Bengaluru,Supp-A,Electronics,2,11,7641.6,221,0,Delivered
+SHP-1344,WH-Mumbai,Supp-C,Electronics,5,9,8128.52,300,1,Delivered
+SHP-1345,WH-Mumbai,Supp-C,Consumer Goods,5,12,5421.08,142,0,Delivered
+SHP-1346,WH-Mumbai,Supp-C,Automotive,8,9,1833.08,210,0,Delivered
+SHP-1347,WH-Hyderabad,Supp-C,Industrial Parts,9,5,6876.0,294,0,Delivered
+SHP-1348,WH-Hyderabad,Supp-D,Consumer Goods,18,9,6394.5,335,1,Delivered
+SHP-1349,WH-Mumbai,Supp-A,Consumer Goods,6,8,7551.41,418,0,Cancelled
+SHP-1350,WH-Hyderabad,Supp-D,Consumer Goods,8,10,2113.87,104,0,Delayed
+SHP-1351,WH-Delhi,Supp-D,Electronics,21,7,2352.26,287,0,Delayed
+SHP-1352,WH-Delhi,Supp-C,Automotive,21,9,8958.89,459,0,Delivered
+SHP-1353,WH-Hyderabad,Supp-B,Consumer Goods,5,6,7624.79,438,0,Delayed
+SHP-1354,WH-Hyderabad,Supp-B,Industrial Parts,7,10,9128.17,334,0,Delivered
+SHP-1355,WH-Mumbai,Supp-D,Automotive,8,10,7707.8,228,1,Delivered
+SHP-1356,WH-Bengaluru,Supp-D,Industrial Parts,19,9,6172.98,98,1,Delivered
+SHP-1357,WH-Hyderabad,Supp-C,Automotive,6,10,6714.26,81,1,Delivered
+SHP-1358,WH-Delhi,Supp-D,Industrial Parts,21,11,8946.72,256,0,Delivered
+SHP-1359,WH-Mumbai,Supp-C,Electronics,4,9,5998.66,138,0,Delivered
+SHP-1360,WH-Hyderabad,Supp-B,Consumer Goods,8,5,6507.72,221,0,Delivered
+SHP-1361,WH-Delhi,Supp-B,Industrial Parts,23,12,1986.53,437,0,Delivered
+SHP-1362,WH-Delhi,Supp-A,Automotive,15,8,5002.25,352,0,Delivered
+SHP-1363,WH-Bengaluru,Supp-B,Consumer Goods,8,13,7305.77,105,0,Delivered
+SHP-1364,WH-Mumbai,Supp-D,Consumer Goods,6,14,3073.96,84,0,Delivered
+SHP-1365,WH-Mumbai,Supp-B,Automotive,23,10,2421.41,432,0,Delivered
+SHP-1366,WH-Bengaluru,Supp-C,Industrial Parts,6,5,3481.35,63,0,Delayed
+SHP-1367,WH-Bengaluru,Supp-B,Electronics,24,7,2794.26,353,0,Delivered
+SHP-1368,WH-Mumbai,Supp-A,Electronics,3,7,2541.67,468,0,Delivered
+SHP-1369,WH-Mumbai,Supp-B,Industrial Parts,22,14,4536.08,422,0,Delivered
+SHP-1370,WH-Hyderabad,Supp-C,Consumer Goods,23,8,9124.47,63,0,Delivered
+SHP-1371,WH-Hyderabad,Supp-C,Consumer Goods,7,10,5317.07,227,0,Delayed
+SHP-1372,WH-Bengaluru,Supp-D,Consumer Goods,16,11,2285.24,25,0,Delivered
+SHP-1373,WH-Hyderabad,Supp-B,Consumer Goods,22,14,1231.23,108,0,Delivered
+SHP-1374,WH-Delhi,Supp-C,Industrial Parts,11,8,7113.48,29,0,Delayed
+SHP-1375,WH-Hyderabad,Supp-A,Consumer Goods,24,10,4136.59,55,0,Delivered
+SHP-1376,WH-Hyderabad,Supp-D,Automotive,8,5,8307.39,460,0,Delivered
+SHP-1377,WH-Delhi,Supp-A,Consumer Goods,6,12,6765.35,202,0,Delivered
+SHP-1378,WH-Bengaluru,Supp-B,Electronics,2,11,8064.29,392,0,Delivered
+SHP-1379,WH-Delhi,Supp-B,Consumer Goods,14,13,3083.49,67,0,Delivered
+SHP-1380,WH-Hyderabad,Supp-B,Industrial Parts,22,7,7077.41,446,0,Delivered
+SHP-1381,WH-Bengaluru,Supp-D,Electronics,19,6,3008.59,120,0,Cancelled
+SHP-1382,WH-Hyderabad,Supp-C,Industrial Parts,14,5,9421.15,138,0,Delivered
+SHP-1383,WH-Delhi,Supp-D,Industrial Parts,22,7,6545.56,346,1,Delivered
+SHP-1384,WH-Delhi,Supp-A,Electronics,22,9,3582.86,203,0,Delivered
+SHP-1385,WH-Hyderabad,Supp-D,Industrial Parts,19,6,3060.36,422,0,Delayed
+SHP-1386,WH-Mumbai,Supp-A,Industrial Parts,6,7,2313.8,349,0,Delayed
+SHP-1387,WH-Mumbai,Supp-D,Consumer Goods,14,8,7099.09,335,0,Delivered
+SHP-1388,WH-Delhi,Supp-C,Automotive,5,11,2577.8,17,0,Delivered
+SHP-1389,WH-Delhi,Supp-A,Industrial Parts,18,7,6155.38,38,0,Delivered
+SHP-1390,WH-Mumbai,Supp-B,Industrial Parts,4,13,3014.03,121,0,Delivered
+SHP-1391,WH-Mumbai,Supp-B,Industrial Parts,18,12,6788.7,444,0,Delivered
+SHP-1392,WH-Hyderabad,Supp-D,Consumer Goods,12,8,8241.93,170,0,Delivered
+SHP-1393,WH-Hyderabad,Supp-B,Automotive,22,5,7891.24,140,0,Delivered
+SHP-1394,WH-Mumbai,Supp-A,Electronics,21,5,7728.09,197,0,Delayed
+SHP-1395,WH-Hyderabad,Supp-B,Consumer Goods,24,5,2283.36,172,0,Delivered
+SHP-1396,WH-Hyderabad,Supp-C,Consumer Goods,22,5,1339.66,206,0,Cancelled
+SHP-1397,WH-Bengaluru,Supp-C,Automotive,5,12,7140.01,484,1,Delivered
+SHP-1398,WH-Hyderabad,Supp-D,Automotive,3,7,3999.3,373,0,Delivered
+SHP-1399,WH-Delhi,Supp-A,Consumer Goods,21,10,4607.29,213,0,Delivered
+SHP-1400,WH-Hyderabad,Supp-C,Electronics,17,7,795.92,221,0,Delivered
+SHP-1401,WH-Hyderabad,Supp-C,Consumer Goods,19,9,2965.98,118,0,Delivered
+SHP-1402,WH-Mumbai,Supp-A,Automotive,9,11,819.93,285,1,Delivered
+SHP-1403,WH-Delhi,Supp-B,Electronics,4,6,8852.26,82,0,Delivered
+SHP-1404,WH-Hyderabad,Supp-B,Automotive,10,10,2812.27,176,1,Delivered
+SHP-1405,WH-Hyderabad,Supp-D,Electronics,21,10,5794.7,269,0,Delayed
+SHP-1406,WH-Bengaluru,Supp-B,Industrial Parts,7,7,870.3,252,0,Delivered
+SHP-1407,WH-Hyderabad,Supp-A,Automotive,11,10,6835.05,284,0,Delivered
+SHP-1408,WH-Hyderabad,Supp-C,Automotive,22,14,3568.76,111,1,Delivered
+SHP-1409,WH-Bengaluru,Supp-B,Consumer Goods,11,14,9030.23,484,0,Delayed
+SHP-1410,WH-Mumbai,Supp-D,Automotive,14,9,8937.12,182,0,Delivered
+SHP-1411,WH-Hyderabad,Supp-B,Automotive,18,6,3590.26,180,0,Delivered
+SHP-1412,WH-Bengaluru,Supp-A,Industrial Parts,10,13,9059.13,150,0,Delivered
+SHP-1413,WH-Delhi,Supp-D,Automotive,18,12,9963.5,406,1,Delivered
+SHP-1414,WH-Mumbai,Supp-B,Industrial Parts,10,7,8341.45,197,0,Cancelled
+SHP-1415,WH-Delhi,Supp-D,Industrial Parts,10,12,8526.28,450,0,Delivered
+SHP-1416,WH-Delhi,Supp-A,Industrial Parts,2,13,2865.58,95,0,Delivered
+SHP-1417,WH-Bengaluru,Supp-C,Industrial Parts,3,7,5978.67,485,0,Delivered
+SHP-1418,WH-Hyderabad,Supp-A,Electronics,17,7,1138.93,61,1,Delivered
+SHP-1419,WH-Bengaluru,Supp-A,Consumer Goods,2,6,1401.72,120,0,Cancelled
+SHP-1420,WH-Bengaluru,Supp-A,Electronics,11,12,9989.48,446,0,Delivered
+SHP-1421,WH-Bengaluru,Supp-A,Automotive,19,14,3603.07,374,1,Delivered
+SHP-1422,WH-Bengaluru,Supp-C,Electronics,9,5,7607.75,351,0,Delivered
+SHP-1423,WH-Mumbai,Supp-C,Electronics,22,12,8163.32,52,0,Delivered
+SHP-1424,WH-Hyderabad,Supp-D,Automotive,12,11,8651.22,220,0,Delayed
+SHP-1425,WH-Delhi,Supp-B,Automotive,24,11,9977.47,465,0,Delivered
+SHP-1426,WH-Delhi,Supp-C,Automotive,3,7,2794.22,209,0,Delivered
+SHP-1427,WH-Hyderabad,Supp-C,Electronics,9,5,883.33,307,1,Delayed
+SHP-1428,WH-Delhi,Supp-B,Electronics,23,8,4406.32,355,0,Delivered
+SHP-1429,WH-Hyderabad,Supp-C,Automotive,9,13,1735.77,249,0,Delivered
+SHP-1430,WH-Delhi,Supp-A,Consumer Goods,18,9,713.05,124,1,Delivered
+SHP-1431,WH-Bengaluru,Supp-A,Consumer Goods,16,5,3924.05,35,0,Cancelled
+SHP-1432,WH-Delhi,Supp-B,Industrial Parts,18,9,7945.51,416,0,Delivered
+SHP-1433,WH-Hyderabad,Supp-D,Automotive,24,12,5878.72,308,0,Delivered
+SHP-1434,WH-Hyderabad,Supp-D,Industrial Parts,14,12,3471.39,86,1,Delivered
+SHP-1435,WH-Hyderabad,Supp-B,Consumer Goods,20,9,6716.25,421,0,Delivered
+SHP-1436,WH-Hyderabad,Supp-B,Industrial Parts,6,13,2704.17,146,0,Delivered
+SHP-1437,WH-Hyderabad,Supp-A,Automotive,13,5,636.62,29,0,Delivered
+SHP-1438,WH-Mumbai,Supp-D,Automotive,2,8,7761.36,449,0,Delivered
+SHP-1439,WH-Mumbai,Supp-C,Automotive,24,7,6425.56,220,0,Delivered
+SHP-1440,WH-Delhi,Supp-A,Electronics,6,6,7741.87,249,0,Delivered
+SHP-1441,WH-Hyderabad,Supp-B,Industrial Parts,9,12,869.91,48,0,Delayed
+SHP-1442,WH-Delhi,Supp-D,Consumer Goods,14,11,8452.64,444,0,Cancelled
+SHP-1443,WH-Hyderabad,Supp-C,Consumer Goods,9,13,6385.5,277,1,Delivered
+SHP-1444,WH-Hyderabad,Supp-C,Consumer Goods,24,6,5852.26,216,0,Delivered
+SHP-1445,WH-Mumbai,Supp-A,Electronics,12,8,6433.83,488,0,Delivered
+SHP-1446,WH-Mumbai,Supp-D,Electronics,2,10,8712.12,448,0,Delivered
+SHP-1447,WH-Bengaluru,Supp-D,Automotive,14,7,6075.9,471,0,Delayed
+SHP-1448,WH-Mumbai,Supp-B,Consumer Goods,20,12,6019.03,276,0,Delivered
+SHP-1449,WH-Bengaluru,Supp-D,Electronics,4,7,9911.45,163,0,Delivered
+SHP-1450,WH-Bengaluru,Supp-D,Automotive,18,6,7688.94,51,0,Delayed
+SHP-1451,WH-Bengaluru,Supp-A,Consumer Goods,6,7,4701.79,420,0,Delivered
+SHP-1452,WH-Bengaluru,Supp-D,Industrial Parts,21,10,7220.27,20,0,Delivered
+SHP-1453,WH-Bengaluru,Supp-C,Automotive,22,6,4197.69,303,0,Delivered
+SHP-1454,WH-Delhi,Supp-A,Electronics,9,12,2674.32,107,0,Delivered
+SHP-1455,WH-Mumbai,Supp-A,Electronics,15,5,6170.09,436,0,Delivered
+SHP-1456,WH-Bengaluru,Supp-B,Automotive,5,11,9317.73,284,0,Delayed
+SHP-1457,WH-Hyderabad,Supp-D,Automotive,12,6,9326.83,457,0,Delayed
+SHP-1458,WH-Mumbai,Supp-B,Electronics,21,14,3748.1,399,0,Delivered
+SHP-1459,WH-Mumbai,Supp-C,Industrial Parts,16,10,5512.94,439,0,Delayed
+SHP-1460,WH-Bengaluru,Supp-A,Consumer Goods,20,6,2510.54,381,0,Delivered
+SHP-1461,WH-Delhi,Supp-A,Industrial Parts,8,6,9958.5,239,0,Delayed
+SHP-1462,WH-Bengaluru,Supp-A,Automotive,20,14,9820.62,378,0,Delivered
+SHP-1463,WH-Delhi,Supp-C,Industrial Parts,20,12,6670.33,435,0,Delayed
+SHP-1464,WH-Hyderabad,Supp-C,Electronics,12,6,8141.93,229,1,Delayed
+SHP-1465,WH-Mumbai,Supp-B,Automotive,6,11,7293.45,74,0,Delivered
+SHP-1466,WH-Hyderabad,Supp-B,Consumer Goods,6,7,6135.0,364,1,Delayed
+SHP-1467,WH-Delhi,Supp-B,Electronics,23,12,1006.81,241,0,Delayed
+SHP-1468,WH-Delhi,Supp-D,Electronics,9,11,4820.26,337,0,Delayed
+SHP-1469,WH-Hyderabad,Supp-A,Consumer Goods,11,12,6910.47,452,1,Delivered
+SHP-1470,WH-Delhi,Supp-A,Consumer Goods,7,11,6936.55,61,0,Delayed
+SHP-1471,WH-Hyderabad,Supp-B,Industrial Parts,16,10,4044.66,383,0,Delayed
+SHP-1472,WH-Mumbai,Supp-A,Automotive,17,11,9446.07,440,0,Delivered
+SHP-1473,WH-Hyderabad,Supp-B,Consumer Goods,18,9,2089.89,385,0,Cancelled
+SHP-1474,WH-Mumbai,Supp-D,Consumer Goods,9,11,5253.41,272,0,Delivered
+SHP-1475,WH-Hyderabad,Supp-D,Automotive,9,5,7063.4,276,0,Delivered
+SHP-1476,WH-Delhi,Supp-C,Consumer Goods,10,5,7122.79,368,0,Delivered
+SHP-1477,WH-Hyderabad,Supp-D,Consumer Goods,3,13,6662.07,326,0,Delivered
+SHP-1478,WH-Delhi,Supp-B,Industrial Parts,16,9,3115.24,333,1,Delivered
+SHP-1479,WH-Hyderabad,Supp-D,Electronics,19,9,1983.96,418,0,Delivered
+SHP-1480,WH-Hyderabad,Supp-C,Electronics,4,7,6541.43,405,0,Cancelled
+SHP-1481,WH-Bengaluru,Supp-A,Electronics,18,9,6193.37,163,0,Delivered
+SHP-1482,WH-Delhi,Supp-B,Electronics,5,7,2203.88,367,0,Delivered
+SHP-1483,WH-Bengaluru,Supp-A,Consumer Goods,5,13,7198.82,375,0,Delivered
+SHP-1484,WH-Delhi,Supp-C,Automotive,15,13,4824.13,149,0,Delivered
+SHP-1485,WH-Bengaluru,Supp-C,Automotive,10,10,6843.73,436,0,Delayed
+SHP-1486,WH-Mumbai,Supp-C,Industrial Parts,10,5,8454.99,60,0,Delivered
+SHP-1487,WH-Hyderabad,Supp-A,Industrial Parts,24,11,2112.42,126,0,Delayed
+SHP-1488,WH-Delhi,Supp-A,Consumer Goods,19,11,681.88,430,1,Delivered
+SHP-1489,WH-Delhi,Supp-A,Automotive,11,14,7901.47,55,0,Delivered
+SHP-1490,WH-Hyderabad,Supp-A,Automotive,22,14,6292.13,318,0,Delivered
+SHP-1491,WH-Delhi,Supp-C,Electronics,5,8,7146.58,97,0,Delivered
+SHP-1492,WH-Delhi,Supp-C,Consumer Goods,13,12,8462.47,217,0,Delivered
+SHP-1493,WH-Bengaluru,Supp-B,Consumer Goods,9,10,8126.7,386,1,Delivered
+SHP-1494,WH-Delhi,Supp-B,Electronics,3,8,9628.74,278,0,Delivered
+SHP-1495,WH-Mumbai,Supp-A,Consumer Goods,23,8,5591.38,98,0,Delayed
+SHP-1496,WH-Mumbai,Supp-D,Consumer Goods,14,6,5140.71,390,0,Delivered
+SHP-1497,WH-Hyderabad,Supp-D,Industrial Parts,22,6,4317.93,127,0,Delivered
+SHP-1498,WH-Delhi,Supp-C,Automotive,17,8,1960.06,63,0,Delivered
+SHP-1499,WH-Hyderabad,Supp-C,Consumer Goods,3,9,5939.77,450,0,Delivered
+SHP-1500,WH-Mumbai,Supp-C,Industrial Parts,12,12,3131.62,125,1,Delayed
+SHP-1501,WH-Delhi,Supp-B,Automotive,11,10,9252.42,127,0,Delivered
+SHP-1502,WH-Delhi,Supp-B,Electronics,16,8,6040.31,269,1,Delivered
+SHP-1503,WH-Hyderabad,Supp-C,Industrial Parts,18,11,6131.98,84,0,Cancelled
+SHP-1504,WH-Mumbai,Supp-C,Industrial Parts,9,12,3871.78,489,0,Delivered
+SHP-1505,WH-Delhi,Supp-C,Automotive,19,6,993.9,314,0,Delivered
+SHP-1506,WH-Hyderabad,Supp-D,Electronics,24,11,801.57,16,0,Delivered
+SHP-1507,WH-Mumbai,Supp-B,Industrial Parts,10,6,4521.68,375,0,Delivered
+SHP-1508,WH-Hyderabad,Supp-D,Consumer Goods,9,6,1303.37,131,0,Delayed
+SHP-1509,WH-Bengaluru,Supp-D,Consumer Goods,15,12,6265.05,20,0,Delayed
+SHP-1510,WH-Delhi,Supp-C,Consumer Goods,19,6,8869.24,357,0,Cancelled
+SHP-1511,WH-Bengaluru,Supp-C,Electronics,23,13,8887.69,447,0,Delivered
+SHP-1512,WH-Mumbai,Supp-A,Industrial Parts,21,5,6760.93,498,0,Delivered
+SHP-1513,WH-Bengaluru,Supp-A,Consumer Goods,21,13,2506.7,224,0,Delayed
+SHP-1514,WH-Bengaluru,Supp-D,Electronics,22,5,8698.47,438,0,Delivered
+SHP-1515,WH-Mumbai,Supp-B,Consumer Goods,13,14,8917.89,288,0,Delivered
+SHP-1516,WH-Hyderabad,Supp-C,Automotive,20,14,2368.21,37,0,Delivered
+SHP-1517,WH-Bengaluru,Supp-C,Industrial Parts,15,6,7505.55,244,1,Delivered
+SHP-1518,WH-Hyderabad,Supp-D,Industrial Parts,18,10,3221.94,376,0,Delivered
+SHP-1519,WH-Bengaluru,Supp-A,Electronics,22,10,8125.08,322,0,Delayed
+SHP-1520,WH-Hyderabad,Supp-B,Electronics,4,5,9973.76,35,1,Delayed
+SHP-1521,WH-Mumbai,Supp-A,Industrial Parts,24,11,785.25,418,0,Delivered
+SHP-1522,WH-Bengaluru,Supp-A,Consumer Goods,8,12,9024.98,63,1,Delivered
+SHP-1523,WH-Mumbai,Supp-A,Consumer Goods,18,6,6414.99,38,0,Delivered
+SHP-1524,WH-Bengaluru,Supp-A,Automotive,13,12,9747.13,476,0,Delayed
+SHP-1525,WH-Mumbai,Supp-C,Consumer Goods,10,13,4917.59,362,0,Delivered
+SHP-1526,WH-Mumbai,Supp-C,Electronics,16,10,8550.19,173,0,Delivered
+SHP-1527,WH-Bengaluru,Supp-A,Electronics,19,9,1092.74,279,0,Delivered
+SHP-1528,WH-Bengaluru,Supp-B,Consumer Goods,22,13,3685.15,343,0,Delivered
+SHP-1529,WH-Bengaluru,Supp-D,Electronics,14,13,1136.66,44,0,Delivered
+SHP-1530,WH-Delhi,Supp-B,Industrial Parts,22,5,9765.76,295,0,Delayed
+SHP-1531,WH-Hyderabad,Supp-B,Industrial Parts,9,7,8261.25,357,0,Delivered
+SHP-1532,WH-Delhi,Supp-B,Consumer Goods,15,13,8599.2,282,0,Delivered
+SHP-1533,WH-Delhi,Supp-A,Industrial Parts,9,6,9410.67,460,0,Delivered
+SHP-1534,WH-Mumbai,Supp-C,Industrial Parts,15,8,1308.48,217,0,Delivered
+SHP-1535,WH-Bengaluru,Supp-B,Automotive,8,8,4163.18,247,1,Delayed
+SHP-1536,WH-Hyderabad,Supp-A,Automotive,24,6,1174.83,423,0,Delivered
+SHP-1537,WH-Mumbai,Supp-B,Industrial Parts,13,7,2502.53,102,1,Delayed
+SHP-1538,WH-Delhi,Supp-B,Consumer Goods,12,7,2678.97,182,0,Delivered
+SHP-1539,WH-Bengaluru,Supp-A,Automotive,23,5,4956.52,88,0,Delivered
+SHP-1540,WH-Mumbai,Supp-C,Electronics,23,10,3051.34,119,0,Delivered
+SHP-1541,WH-Bengaluru,Supp-C,Electronics,12,12,1459.29,226,0,Delivered
+SHP-1542,WH-Mumbai,Supp-D,Electronics,23,7,2091.17,444,0,Delivered
+SHP-1543,WH-Bengaluru,Supp-A,Consumer Goods,14,9,1899.12,367,0,Delayed
+SHP-1544,WH-Delhi,Supp-D,Industrial Parts,19,5,9744.23,115,0,Delivered
+SHP-1545,WH-Hyderabad,Supp-D,Electronics,3,14,7713.28,56,0,Delivered
+SHP-1546,WH-Delhi,Supp-D,Consumer Goods,22,11,9693.73,190,0,Delayed
+SHP-1547,WH-Hyderabad,Supp-C,Automotive,16,14,4677.53,73,0,Delayed
+SHP-1548,WH-Bengaluru,Supp-A,Industrial Parts,21,5,3144.5,255,0,Delivered
+SHP-1549,WH-Mumbai,Supp-D,Automotive,19,13,8083.79,253,0,Cancelled
+SHP-1550,WH-Delhi,Supp-A,Consumer Goods,16,12,3599.41,431,0,Delivered
+SHP-1551,WH-Hyderabad,Supp-A,Electronics,20,11,3344.14,329,0,Delivered
+SHP-1552,WH-Delhi,Supp-C,Electronics,24,14,2708.81,96,0,Delayed
+SHP-1553,WH-Hyderabad,Supp-D,Consumer Goods,13,11,1731.95,226,0,Delivered
+SHP-1554,WH-Delhi,Supp-D,Electronics,14,9,2936.4,499,0,Delivered
+SHP-1555,WH-Hyderabad,Supp-A,Industrial Parts,23,9,3875.54,16,0,Delivered
+SHP-1556,WH-Hyderabad,Supp-B,Consumer Goods,12,9,6902.94,287,0,Delayed
+SHP-1557,WH-Bengaluru,Supp-C,Automotive,6,5,1094.37,346,0,Delayed
+SHP-1558,WH-Hyderabad,Supp-C,Consumer Goods,2,12,2499.82,219,1,Delivered
+SHP-1559,WH-Bengaluru,Supp-C,Industrial Parts,4,5,8185.72,178,1,Delivered
+SHP-1560,WH-Hyderabad,Supp-C,Industrial Parts,23,8,1895.76,339,0,Delivered
+SHP-1561,WH-Mumbai,Supp-D,Consumer Goods,20,13,3755.13,147,0,Delivered
+SHP-1562,WH-Mumbai,Supp-D,Consumer Goods,24,13,8714.26,450,0,Delivered
+SHP-1563,WH-Mumbai,Supp-B,Electronics,8,9,1971.79,400,0,Delayed
+SHP-1564,WH-Hyderabad,Supp-C,Industrial Parts,13,8,1286.0,390,0,Delivered
+SHP-1565,WH-Bengaluru,Supp-C,Consumer Goods,16,7,5103.11,315,0,Delivered
+SHP-1566,WH-Bengaluru,Supp-A,Consumer Goods,6,7,3372.99,239,1,Delivered
+SHP-1567,WH-Hyderabad,Supp-D,Industrial Parts,16,9,5852.38,484,0,Delivered
+SHP-1568,WH-Mumbai,Supp-C,Consumer Goods,9,14,8136.15,317,0,Delayed
+SHP-1569,WH-Mumbai,Supp-B,Electronics,11,5,1802.91,170,0,Delivered
+SHP-1570,WH-Bengaluru,Supp-B,Industrial Parts,17,9,6016.64,10,0,Delivered
+SHP-1571,WH-Mumbai,Supp-D,Electronics,9,10,5302.33,245,0,Delivered
+SHP-1572,WH-Delhi,Supp-B,Electronics,2,11,1868.75,446,1,Delivered
+SHP-1573,WH-Bengaluru,Supp-B,Electronics,13,13,6427.99,197,0,Delivered
+SHP-1574,WH-Mumbai,Supp-D,Electronics,6,7,3099.58,427,0,Delivered
+SHP-1575,WH-Bengaluru,Supp-C,Industrial Parts,4,6,5134.43,13,0,Delivered
+SHP-1576,WH-Delhi,Supp-C,Electronics,2,7,1281.59,410,0,Delivered
+SHP-1577,WH-Bengaluru,Supp-B,Electronics,5,13,4866.05,141,0,Delivered
+SHP-1578,WH-Bengaluru,Supp-B,Consumer Goods,9,11,3411.4,436,0,Delivered
+SHP-1579,WH-Bengaluru,Supp-C,Industrial Parts,4,13,8312.62,227,0,Cancelled
+SHP-1580,WH-Bengaluru,Supp-D,Industrial Parts,11,6,1041.3,269,0,Delivered
+SHP-1581,WH-Delhi,Supp-B,Automotive,3,9,4476.77,10,0,Delivered
+SHP-1582,WH-Hyderabad,Supp-A,Industrial Parts,12,8,4855.1,80,0,Delivered
+SHP-1583,WH-Bengaluru,Supp-D,Industrial Parts,11,6,7387.56,487,0,Delivered
+SHP-1584,WH-Bengaluru,Supp-B,Automotive,22,13,5955.73,187,0,Delayed
+SHP-1585,WH-Mumbai,Supp-B,Industrial Parts,15,13,6838.52,466,0,Delivered
+SHP-1586,WH-Bengaluru,Supp-A,Industrial Parts,8,10,7881.97,198,0,Delivered
+SHP-1587,WH-Mumbai,Supp-A,Industrial Parts,3,10,8690.93,300,0,Delivered
+SHP-1588,WH-Hyderabad,Supp-C,Industrial Parts,10,12,3481.82,17,0,Delivered
+SHP-1589,WH-Delhi,Supp-D,Automotive,17,10,5611.22,262,0,Delayed
+SHP-1590,WH-Delhi,Supp-D,Industrial Parts,14,5,8481.03,417,0,Delivered
+SHP-1591,WH-Hyderabad,Supp-C,Industrial Parts,10,8,9899.79,476,0,Delivered
+SHP-1592,WH-Delhi,Supp-D,Automotive,21,11,8950.43,301,0,Delivered
+SHP-1593,WH-Hyderabad,Supp-D,Consumer Goods,5,6,4028.94,443,0,Delivered
+SHP-1594,WH-Hyderabad,Supp-D,Electronics,23,13,2354.08,253,0,Delivered
+SHP-1595,WH-Hyderabad,Supp-D,Consumer Goods,11,12,5149.23,132,0,Delayed
+SHP-1596,WH-Delhi,Supp-D,Automotive,23,12,7545.59,308,0,Delivered
+SHP-1597,WH-Mumbai,Supp-A,Electronics,13,11,5179.41,292,0,Delayed
+SHP-1598,WH-Hyderabad,Supp-D,Automotive,18,8,5090.22,41,0,Delivered
+SHP-1599,WH-Bengaluru,Supp-A,Automotive,15,6,8463.19,343,0,Delivered
+SHP-1600,WH-Delhi,Supp-D,Industrial Parts,15,7,3933.34,386,0,Delivered
+SHP-1601,WH-Hyderabad,Supp-C,Electronics,3,10,8668.05,155,0,Delayed
+SHP-1602,WH-Hyderabad,Supp-B,Industrial Parts,22,9,4364.65,165,0,Delivered
+SHP-1603,WH-Bengaluru,Supp-A,Electronics,21,12,3618.21,422,0,Delivered
+SHP-1604,WH-Mumbai,Supp-D,Automotive,12,10,4812.9,25,0,Delivered
+SHP-1605,WH-Mumbai,Supp-C,Automotive,17,10,7743.25,364,0,Delivered
+SHP-1606,WH-Mumbai,Supp-B,Consumer Goods,20,5,1697.02,56,0,Delivered
+SHP-1607,WH-Hyderabad,Supp-A,Electronics,24,8,2365.98,260,1,Delayed
+SHP-1608,WH-Hyderabad,Supp-B,Industrial Parts,7,9,9538.73,196,1,Cancelled
+SHP-1609,WH-Hyderabad,Supp-C,Consumer Goods,20,7,2167.17,40,1,Delivered
+SHP-1610,WH-Delhi,Supp-A,Consumer Goods,6,13,5893.41,269,0,Delayed
+SHP-1611,WH-Bengaluru,Supp-B,Consumer Goods,5,5,6003.49,430,0,Delivered
+SHP-1612,WH-Hyderabad,Supp-D,Industrial Parts,16,10,5151.43,26,0,Delivered
+SHP-1613,WH-Bengaluru,Supp-A,Consumer Goods,5,10,6625.08,48,0,Delivered
+SHP-1614,WH-Bengaluru,Supp-B,Industrial Parts,21,14,2683.35,313,0,Delivered
+SHP-1615,WH-Mumbai,Supp-C,Consumer Goods,11,9,5750.29,439,0,Cancelled
+SHP-1616,WH-Delhi,Supp-C,Industrial Parts,23,9,4035.65,483,0,Delivered
+SHP-1617,WH-Hyderabad,Supp-A,Automotive,4,14,6785.84,441,0,Delivered
+SHP-1618,WH-Mumbai,Supp-B,Automotive,6,9,1841.62,48,0,Delivered
+SHP-1619,WH-Mumbai,Supp-A,Automotive,7,10,5923.34,498,1,Delivered
+SHP-1620,WH-Hyderabad,Supp-A,Automotive,22,12,2260.07,141,0,Delivered
+SHP-1621,WH-Bengaluru,Supp-B,Automotive,23,6,3147.11,39,0,Cancelled
+SHP-1622,WH-Mumbai,Supp-B,Consumer Goods,9,10,2577.74,167,1,Delayed
+SHP-1623,WH-Bengaluru,Supp-D,Consumer Goods,8,5,2236.96,287,0,Delayed
+SHP-1624,WH-Delhi,Supp-B,Consumer Goods,22,8,8344.25,212,0,Delivered
+SHP-1625,WH-Bengaluru,Supp-C,Industrial Parts,11,14,3214.22,75,0,Delivered
+SHP-1626,WH-Delhi,Supp-A,Industrial Parts,7,7,9307.68,117,0,Delivered
+SHP-1627,WH-Bengaluru,Supp-A,Industrial Parts,15,13,9714.3,277,1,Delivered
+SHP-1628,WH-Mumbai,Supp-C,Industrial Parts,5,7,5926.97,231,0,Delivered
+SHP-1629,WH-Mumbai,Supp-B,Automotive,14,10,1858.51,301,0,Delayed
+SHP-1630,WH-Delhi,Supp-C,Automotive,21,5,4058.21,27,0,Delivered
+SHP-1631,WH-Hyderabad,Supp-C,Automotive,18,10,8078.46,99,0,Delivered
+SHP-1632,WH-Delhi,Supp-D,Electronics,24,8,3990.21,190,1,Delivered
+SHP-1633,WH-Delhi,Supp-C,Consumer Goods,8,12,1326.66,264,0,Delivered
+SHP-1634,WH-Bengaluru,Supp-A,Industrial Parts,5,13,5789.46,464,0,Delivered
+SHP-1635,WH-Bengaluru,Supp-C,Industrial Parts,15,8,8528.65,262,0,Delayed
+SHP-1636,WH-Delhi,Supp-A,Automotive,4,14,8061.3,266,0,Delivered
+SHP-1637,WH-Mumbai,Supp-A,Industrial Parts,6,14,2163.67,392,1,Delayed
+SHP-1638,WH-Bengaluru,Supp-A,Industrial Parts,17,10,6891.26,451,0,Delivered
+SHP-1639,WH-Hyderabad,Supp-B,Consumer Goods,24,5,2594.79,355,0,Delivered
+SHP-1640,WH-Bengaluru,Supp-D,Automotive,21,8,2572.97,96,0,Delivered
+SHP-1641,WH-Bengaluru,Supp-A,Consumer Goods,5,11,8803.68,99,0,Delayed
+SHP-1642,WH-Hyderabad,Supp-A,Electronics,3,5,2871.86,246,0,Delayed
+SHP-1643,WH-Delhi,Supp-B,Electronics,19,12,3000.85,399,1,Delivered
+SHP-1644,WH-Hyderabad,Supp-A,Electronics,20,14,506.21,79,0,Delivered
+SHP-1645,WH-Delhi,Supp-C,Automotive,20,10,8771.36,53,1,Delivered
+SHP-1646,WH-Delhi,Supp-C,Industrial Parts,18,9,8029.65,209,0,Delivered
+SHP-1647,WH-Delhi,Supp-D,Automotive,15,14,6459.62,161,0,Delayed
+SHP-1648,WH-Hyderabad,Supp-A,Automotive,20,13,7627.52,95,0,Delivered
+SHP-1649,WH-Delhi,Supp-B,Industrial Parts,23,6,1944.46,28,0,Delivered
+SHP-1650,WH-Mumbai,Supp-C,Consumer Goods,14,9,4854.07,110,1,Delivered
+SHP-1651,WH-Hyderabad,Supp-B,Electronics,13,10,3836.58,411,0,Delivered
+SHP-1652,WH-Mumbai,Supp-B,Consumer Goods,7,11,1390.88,104,0,Delivered
+SHP-1653,WH-Delhi,Supp-C,Electronics,22,9,5118.24,263,0,Delivered
+SHP-1654,WH-Bengaluru,Supp-B,Automotive,5,13,9247.03,366,0,Delivered
+SHP-1655,WH-Delhi,Supp-C,Electronics,20,5,880.56,39,0,Delivered
+SHP-1656,WH-Mumbai,Supp-B,Automotive,17,11,3268.88,258,0,Delivered
+SHP-1657,WH-Mumbai,Supp-C,Consumer Goods,14,14,2471.64,435,0,Delayed
+SHP-1658,WH-Hyderabad,Supp-A,Automotive,5,11,2762.39,42,0,Delivered
+SHP-1659,WH-Bengaluru,Supp-D,Consumer Goods,24,8,9130.13,467,0,Delivered
+SHP-1660,WH-Hyderabad,Supp-C,Industrial Parts,18,13,4946.66,238,0,Delivered
+SHP-1661,WH-Mumbai,Supp-C,Industrial Parts,24,9,4929.84,21,0,Delivered
+SHP-1662,WH-Delhi,Supp-D,Industrial Parts,2,8,7725.47,127,0,Delivered
+SHP-1663,WH-Bengaluru,Supp-C,Automotive,19,11,1967.68,359,1,Delivered
+SHP-1664,WH-Delhi,Supp-C,Industrial Parts,21,8,5129.02,164,0,Delivered
+SHP-1665,WH-Delhi,Supp-B,Electronics,18,7,4584.86,432,0,Cancelled
+SHP-1666,WH-Bengaluru,Supp-D,Consumer Goods,16,13,6170.65,402,0,Delivered
+SHP-1667,WH-Hyderabad,Supp-A,Consumer Goods,12,12,9995.8,255,0,Delivered
+SHP-1668,WH-Delhi,Supp-C,Electronics,23,5,7809.76,414,0,Delivered
+SHP-1669,WH-Mumbai,Supp-D,Automotive,14,11,4279.72,341,0,Delivered
+SHP-1670,WH-Delhi,Supp-B,Automotive,2,13,8361.75,256,0,Delivered
+SHP-1671,WH-Bengaluru,Supp-A,Consumer Goods,18,12,2121.73,38,0,Delayed
+SHP-1672,WH-Bengaluru,Supp-D,Industrial Parts,7,12,789.41,170,0,Delivered
+SHP-1673,WH-Bengaluru,Supp-A,Automotive,5,10,2442.26,244,0,Delivered
+SHP-1674,WH-Hyderabad,Supp-A,Automotive,21,8,3733.91,199,1,Delivered
+SHP-1675,WH-Delhi,Supp-A,Electronics,17,12,5350.52,126,0,Delivered
+SHP-1676,WH-Hyderabad,Supp-C,Electronics,16,7,6343.73,280,0,Delivered
+SHP-1677,WH-Hyderabad,Supp-C,Industrial Parts,16,13,9150.75,267,1,Delivered
+SHP-1678,WH-Bengaluru,Supp-B,Automotive,7,6,5343.61,189,0,Delivered
+SHP-1679,WH-Bengaluru,Supp-B,Automotive,16,6,5262.12,496,0,Delivered
+SHP-1680,WH-Hyderabad,Supp-D,Electronics,15,11,977.31,382,0,Delivered
+SHP-1681,WH-Delhi,Supp-B,Automotive,12,14,831.66,181,1,Cancelled
+SHP-1682,WH-Mumbai,Supp-A,Consumer Goods,8,8,5736.02,447,0,Delivered
+SHP-1683,WH-Hyderabad,Supp-A,Electronics,10,14,4662.7,283,1,Delayed
+SHP-1684,WH-Delhi,Supp-C,Industrial Parts,17,12,8472.21,268,0,Delayed
+SHP-1685,WH-Bengaluru,Supp-A,Electronics,6,13,2026.46,144,0,Delivered
+SHP-1686,WH-Bengaluru,Supp-D,Automotive,21,11,737.23,180,1,Delivered
+SHP-1687,WH-Delhi,Supp-A,Industrial Parts,11,9,4765.87,219,0,Delivered
+SHP-1688,WH-Mumbai,Supp-A,Electronics,19,12,2756.05,245,0,Delivered
+SHP-1689,WH-Bengaluru,Supp-D,Consumer Goods,4,8,971.34,431,0,Delivered
+SHP-1690,WH-Bengaluru,Supp-B,Consumer Goods,14,6,7383.68,430,0,Delayed
+SHP-1691,WH-Bengaluru,Supp-B,Electronics,12,10,1560.13,195,1,Delayed
+SHP-1692,WH-Delhi,Supp-D,Consumer Goods,18,13,6279.04,426,0,Delivered
+SHP-1693,WH-Hyderabad,Supp-C,Consumer Goods,23,5,3169.97,373,0,Delivered
+SHP-1694,WH-Bengaluru,Supp-A,Consumer Goods,14,14,2148.21,452,0,Delivered
+SHP-1695,WH-Hyderabad,Supp-D,Industrial Parts,7,11,4107.64,104,0,Delayed
+SHP-1696,WH-Mumbai,Supp-A,Consumer Goods,18,14,8113.73,387,0,Delivered
+SHP-1697,WH-Bengaluru,Supp-C,Consumer Goods,14,13,4224.89,20,0,Delivered
+SHP-1698,WH-Bengaluru,Supp-A,Consumer Goods,20,14,7632.31,77,0,Delivered
+SHP-1699,WH-Mumbai,Supp-D,Industrial Parts,22,13,1692.12,388,1,Delivered
+SHP-1700,WH-Bengaluru,Supp-A,Electronics,20,14,7841.33,219,0,Delayed
+SHP-1701,WH-Hyderabad,Supp-B,Automotive,11,7,2750.87,205,0,Delivered
+SHP-1702,WH-Delhi,Supp-C,Consumer Goods,4,9,6935.23,378,1,Delivered
+SHP-1703,WH-Hyderabad,Supp-C,Electronics,15,12,5874.92,107,0,Delayed
+SHP-1704,WH-Delhi,Supp-C,Consumer Goods,20,12,9326.87,102,0,Delivered
+SHP-1705,WH-Delhi,Supp-D,Industrial Parts,6,8,4179.56,481,0,Delivered
+SHP-1706,WH-Hyderabad,Supp-C,Electronics,6,5,1128.57,31,1,Delivered
+SHP-1707,WH-Hyderabad,Supp-B,Industrial Parts,21,5,681.98,459,0,Delivered
+SHP-1708,WH-Hyderabad,Supp-D,Consumer Goods,18,8,8355.16,181,1,Delivered
+SHP-1709,WH-Hyderabad,Supp-B,Consumer Goods,22,10,5484.99,392,0,Delivered
+SHP-1710,WH-Mumbai,Supp-A,Industrial Parts,11,12,7864.82,143,0,Delivered
+SHP-1711,WH-Bengaluru,Supp-A,Automotive,6,10,2727.04,435,0,Delivered
+SHP-1712,WH-Delhi,Supp-A,Industrial Parts,5,13,3778.3,34,0,Delayed
+SHP-1713,WH-Hyderabad,Supp-A,Consumer Goods,7,13,785.99,194,0,Delayed
+SHP-1714,WH-Hyderabad,Supp-B,Industrial Parts,5,6,9634.18,94,0,Delivered
+SHP-1715,WH-Hyderabad,Supp-D,Automotive,8,14,6844.75,64,0,Delivered
+SHP-1716,WH-Mumbai,Supp-D,Industrial Parts,8,5,9365.45,260,0,Delivered
+SHP-1717,WH-Hyderabad,Supp-C,Automotive,19,6,3022.22,153,0,Delivered
+SHP-1718,WH-Hyderabad,Supp-B,Automotive,4,9,6308.9,360,0,Delayed
+SHP-1719,WH-Hyderabad,Supp-A,Industrial Parts,2,8,6945.75,407,0,Delivered
+SHP-1720,WH-Bengaluru,Supp-B,Industrial Parts,5,8,3516.72,176,0,Delivered
+SHP-1721,WH-Mumbai,Supp-C,Electronics,7,13,8557.04,421,0,Delivered
+SHP-1722,WH-Hyderabad,Supp-C,Consumer Goods,10,12,9498.03,233,0,Delivered
+SHP-1723,WH-Delhi,Supp-B,Automotive,23,10,8906.12,229,0,Delivered
+SHP-1724,WH-Delhi,Supp-B,Electronics,15,5,7521.14,188,0,Delivered
+SHP-1725,WH-Delhi,Supp-B,Industrial Parts,13,6,3135.91,128,1,Cancelled
+SHP-1726,WH-Mumbai,Supp-D,Consumer Goods,21,10,3175.35,442,0,Delayed
+SHP-1727,WH-Mumbai,Supp-A,Electronics,5,6,9651.92,274,0,Delivered
+SHP-1728,WH-Delhi,Supp-B,Automotive,22,14,597.7,451,0,Delivered
+SHP-1729,WH-Hyderabad,Supp-B,Electronics,13,9,7302.47,438,0,Delayed
+SHP-1730,WH-Mumbai,Supp-B,Automotive,11,9,7209.34,159,0,Delivered
+SHP-1731,WH-Delhi,Supp-C,Industrial Parts,23,10,6415.55,425,0,Delivered
+SHP-1732,WH-Delhi,Supp-C,Consumer Goods,8,10,9906.03,462,0,Delivered
+SHP-1733,WH-Hyderabad,Supp-D,Consumer Goods,4,10,3462.85,224,0,Delayed
+SHP-1734,WH-Bengaluru,Supp-A,Consumer Goods,24,6,3729.73,206,0,Delivered
+SHP-1735,WH-Mumbai,Supp-D,Industrial Parts,15,14,1249.92,51,0,Delivered
+SHP-1736,WH-Hyderabad,Supp-A,Automotive,11,7,4706.58,62,0,Delayed
+SHP-1737,WH-Delhi,Supp-C,Industrial Parts,17,10,2979.96,489,0,Delayed
+SHP-1738,WH-Delhi,Supp-C,Consumer Goods,17,12,3762.17,452,1,Delayed
+SHP-1739,WH-Hyderabad,Supp-C,Industrial Parts,23,5,8428.43,339,0,Delivered
+SHP-1740,WH-Mumbai,Supp-D,Industrial Parts,11,5,9387.1,260,0,Delivered
+SHP-1741,WH-Bengaluru,Supp-B,Industrial Parts,14,6,2264.46,304,1,Delivered
+SHP-1742,WH-Bengaluru,Supp-B,Automotive,7,10,4038.83,387,0,Delayed
+SHP-1743,WH-Delhi,Supp-C,Electronics,13,13,9321.99,280,0,Delivered
+SHP-1744,WH-Mumbai,Supp-B,Electronics,10,8,1087.18,464,0,Delivered
+SHP-1745,WH-Bengaluru,Supp-B,Industrial Parts,14,7,1377.43,422,1,Delayed
+SHP-1746,WH-Mumbai,Supp-D,Electronics,5,12,2046.51,132,0,Delivered
+SHP-1747,WH-Mumbai,Supp-A,Electronics,12,14,6154.52,376,0,Delivered
+SHP-1748,WH-Delhi,Supp-C,Industrial Parts,21,13,1929.49,396,0,Delivered
+SHP-1749,WH-Bengaluru,Supp-C,Industrial Parts,19,9,9696.73,348,1,Delivered
+SHP-1750,WH-Hyderabad,Supp-D,Consumer Goods,12,13,4743.79,275,0,Delivered
+SHP-1751,WH-Delhi,Supp-D,Electronics,22,6,5264.42,357,0,Delivered
+SHP-1752,WH-Bengaluru,Supp-B,Automotive,5,7,2843.26,38,1,Delivered
+SHP-1753,WH-Bengaluru,Supp-C,Industrial Parts,19,11,4974.12,472,0,Delivered
+SHP-1754,WH-Bengaluru,Supp-A,Consumer Goods,2,11,6788.18,44,0,Delivered
+SHP-1755,WH-Bengaluru,Supp-D,Automotive,8,10,7636.18,15,0,Delivered
+SHP-1756,WH-Bengaluru,Supp-A,Electronics,7,10,7661.75,405,0,Delayed
+SHP-1757,WH-Mumbai,Supp-A,Consumer Goods,16,6,5989.97,120,1,Delivered
+SHP-1758,WH-Delhi,Supp-C,Industrial Parts,19,14,9091.42,303,0,Delivered
+SHP-1759,WH-Mumbai,Supp-C,Automotive,12,10,8265.37,86,0,Delayed
+SHP-1760,WH-Hyderabad,Supp-D,Industrial Parts,21,8,7691.96,358,0,Delivered
+SHP-1761,WH-Bengaluru,Supp-C,Electronics,16,7,1028.25,156,0,Cancelled
+SHP-1762,WH-Delhi,Supp-C,Automotive,17,6,565.34,76,1,Delayed
+SHP-1763,WH-Bengaluru,Supp-C,Electronics,8,5,2518.25,401,0,Delivered
+SHP-1764,WH-Delhi,Supp-A,Electronics,22,9,6803.47,17,0,Cancelled
+SHP-1765,WH-Mumbai,Supp-D,Consumer Goods,11,6,4406.38,131,0,Delivered
+SHP-1766,WH-Delhi,Supp-B,Industrial Parts,13,6,4322.86,349,1,Delivered
+SHP-1767,WH-Hyderabad,Supp-A,Automotive,15,11,8903.58,184,0,Delivered
+SHP-1768,WH-Hyderabad,Supp-C,Electronics,6,12,9007.85,397,0,Delivered
+SHP-1769,WH-Delhi,Supp-A,Electronics,22,14,9137.17,188,0,Delayed
+SHP-1770,WH-Delhi,Supp-C,Automotive,19,12,3481.84,94,0,Delivered
+SHP-1771,WH-Delhi,Supp-C,Electronics,6,8,7065.03,460,0,Delivered
+SHP-1772,WH-Delhi,Supp-A,Consumer Goods,4,5,3080.52,54,0,Delivered
+SHP-1773,WH-Hyderabad,Supp-D,Consumer Goods,24,11,2310.79,145,0,Delivered
+SHP-1774,WH-Bengaluru,Supp-C,Consumer Goods,6,5,2254.01,352,0,Delivered
+SHP-1775,WH-Delhi,Supp-D,Consumer Goods,18,8,3750.02,25,0,Delivered
+SHP-1776,WH-Delhi,Supp-B,Electronics,20,12,4584.6,342,1,Delayed
+SHP-1777,WH-Hyderabad,Supp-C,Automotive,20,6,8394.02,204,0,Delivered
+SHP-1778,WH-Hyderabad,Supp-D,Automotive,22,10,1638.97,18,1,Delayed
+SHP-1779,WH-Mumbai,Supp-D,Automotive,13,10,7481.8,325,0,Delivered
+SHP-1780,WH-Delhi,Supp-B,Automotive,10,13,5548.82,343,0,Delayed
+SHP-1781,WH-Mumbai,Supp-D,Industrial Parts,2,9,3235.48,342,1,Delivered
+SHP-1782,WH-Hyderabad,Supp-D,Automotive,19,14,5181.79,336,0,Delivered
+SHP-1783,WH-Hyderabad,Supp-B,Industrial Parts,22,8,3349.45,24,0,Delivered
+SHP-1784,WH-Bengaluru,Supp-C,Industrial Parts,5,9,6162.78,336,1,Delayed
+SHP-1785,WH-Delhi,Supp-D,Consumer Goods,11,14,4621.52,111,0,Delivered
+SHP-1786,WH-Mumbai,Supp-D,Industrial Parts,8,9,2061.85,235,0,Cancelled
+SHP-1787,WH-Hyderabad,Supp-D,Electronics,23,12,1607.54,434,0,Delivered
+SHP-1788,WH-Hyderabad,Supp-A,Industrial Parts,24,14,5693.61,287,0,Delivered
+SHP-1789,WH-Mumbai,Supp-B,Consumer Goods,2,12,9072.92,417,0,Delivered
+SHP-1790,WH-Bengaluru,Supp-A,Industrial Parts,18,6,3767.6,122,0,Cancelled
+SHP-1791,WH-Hyderabad,Supp-B,Electronics,3,11,7463.5,494,0,Delivered
+SHP-1792,WH-Delhi,Supp-C,Electronics,12,12,6757.28,437,0,Delayed
+SHP-1793,WH-Hyderabad,Supp-C,Electronics,10,10,9349.77,10,0,Delayed
+SHP-1794,WH-Delhi,Supp-D,Consumer Goods,8,9,8299.32,275,0,Delivered
+SHP-1795,WH-Mumbai,Supp-B,Consumer Goods,23,13,5882.75,217,0,Delivered
+SHP-1796,WH-Delhi,Supp-C,Automotive,18,7,6741.79,119,0,Delivered
+SHP-1797,WH-Mumbai,Supp-B,Consumer Goods,18,14,9034.67,209,0,Delivered
+SHP-1798,WH-Delhi,Supp-C,Electronics,3,8,4295.43,449,0,Delayed
+SHP-1799,WH-Mumbai,Supp-A,Electronics,7,13,3604.55,378,0,Delivered
+SHP-1800,WH-Delhi,Supp-C,Consumer Goods,15,10,602.71,482,0,Delivered
+SHP-1801,WH-Bengaluru,Supp-A,Industrial Parts,7,12,8352.24,315,1,Delayed
+SHP-1802,WH-Delhi,Supp-C,Consumer Goods,3,11,8109.32,21,0,Delivered
+SHP-1803,WH-Delhi,Supp-D,Consumer Goods,2,6,1492.32,354,0,Delivered
+SHP-1804,WH-Bengaluru,Supp-A,Electronics,11,7,5980.15,474,0,Delivered
+SHP-1805,WH-Hyderabad,Supp-C,Automotive,22,5,4907.83,197,0,Delivered
+SHP-1806,WH-Hyderabad,Supp-D,Electronics,6,13,1627.74,163,1,Delivered
+SHP-1807,WH-Delhi,Supp-A,Automotive,3,11,9815.4,377,1,Delayed
+SHP-1808,WH-Bengaluru,Supp-D,Electronics,23,5,2539.61,343,0,Delivered
+SHP-1809,WH-Delhi,Supp-B,Consumer Goods,17,7,1138.72,434,0,Delivered
+SHP-1810,WH-Mumbai,Supp-B,Electronics,3,8,6151.05,429,1,Delivered
+SHP-1811,WH-Mumbai,Supp-A,Electronics,11,8,7519.23,386,1,Delivered
+SHP-1812,WH-Delhi,Supp-C,Electronics,3,9,808.21,288,0,Delivered
+SHP-1813,WH-Hyderabad,Supp-A,Consumer Goods,17,7,6757.82,180,0,Delayed
+SHP-1814,WH-Hyderabad,Supp-D,Consumer Goods,17,7,5556.77,143,0,Delivered
+SHP-1815,WH-Delhi,Supp-C,Consumer Goods,20,5,1481.02,462,1,Delivered
+SHP-1816,WH-Delhi,Supp-B,Consumer Goods,8,11,2138.98,436,0,Delivered
+SHP-1817,WH-Mumbai,Supp-C,Automotive,23,14,5895.76,34,0,Delivered
+SHP-1818,WH-Hyderabad,Supp-B,Automotive,13,5,3315.4,27,0,Delivered
+SHP-1819,WH-Delhi,Supp-C,Industrial Parts,16,6,9414.0,199,0,Delivered
+SHP-1820,WH-Mumbai,Supp-C,Consumer Goods,9,8,8278.03,150,0,Delivered
+SHP-1821,WH-Hyderabad,Supp-C,Automotive,7,8,9843.89,52,1,Delivered
+SHP-1822,WH-Bengaluru,Supp-D,Electronics,11,9,2966.87,343,0,Delivered
+SHP-1823,WH-Mumbai,Supp-D,Consumer Goods,4,6,9712.37,293,0,Delivered
+SHP-1824,WH-Hyderabad,Supp-A,Industrial Parts,20,8,4596.72,155,0,Cancelled
+SHP-1825,WH-Hyderabad,Supp-A,Industrial Parts,18,5,3801.43,324,0,Delivered
+SHP-1826,WH-Mumbai,Supp-B,Industrial Parts,8,6,978.32,453,0,Delivered
+SHP-1827,WH-Bengaluru,Supp-D,Electronics,22,5,1001.27,328,0,Delivered
+SHP-1828,WH-Mumbai,Supp-B,Automotive,21,14,7074.11,450,0,Delivered
+SHP-1829,WH-Hyderabad,Supp-A,Electronics,5,14,4850.33,101,0,Delivered
+SHP-1830,WH-Delhi,Supp-B,Consumer Goods,15,8,2651.96,188,0,Delivered
+SHP-1831,WH-Delhi,Supp-A,Industrial Parts,21,8,6332.72,65,0,Delivered
+SHP-1832,WH-Mumbai,Supp-D,Electronics,23,11,2902.15,164,1,Delivered
+SHP-1833,WH-Hyderabad,Supp-C,Electronics,16,14,5987.5,169,1,Delivered
+SHP-1834,WH-Delhi,Supp-D,Automotive,9,13,3912.48,120,0,Delivered
+SHP-1835,WH-Hyderabad,Supp-B,Automotive,22,13,8323.75,146,0,Delivered
+SHP-1836,WH-Mumbai,Supp-B,Industrial Parts,16,9,8296.61,241,1,Delivered
+SHP-1837,WH-Delhi,Supp-D,Electronics,23,14,5034.83,489,0,Delivered
+SHP-1838,WH-Hyderabad,Supp-D,Electronics,21,5,3832.78,477,0,Delivered
+SHP-1839,WH-Delhi,Supp-A,Automotive,15,5,3944.32,229,1,Delivered
+SHP-1840,WH-Mumbai,Supp-B,Electronics,10,10,8154.29,490,0,Delivered
+SHP-1841,WH-Hyderabad,Supp-B,Electronics,9,6,3617.71,77,0,Delayed
+SHP-1842,WH-Delhi,Supp-D,Electronics,18,12,2486.06,311,1,Delivered
+SHP-1843,WH-Mumbai,Supp-C,Automotive,3,13,1304.54,258,0,Delivered
+SHP-1844,WH-Delhi,Supp-B,Industrial Parts,4,8,4933.58,491,0,Delivered
+SHP-1845,WH-Delhi,Supp-C,Consumer Goods,9,9,5080.25,332,0,Cancelled
+SHP-1846,WH-Bengaluru,Supp-D,Industrial Parts,13,12,8488.63,419,0,Delivered
+SHP-1847,WH-Bengaluru,Supp-D,Consumer Goods,2,7,2601.77,401,0,Delivered
+SHP-1848,WH-Mumbai,Supp-A,Electronics,11,9,4119.42,15,0,Delivered
+SHP-1849,WH-Bengaluru,Supp-B,Industrial Parts,21,7,8179.85,473,1,Delivered
+SHP-1850,WH-Mumbai,Supp-C,Consumer Goods,4,14,8324.42,289,0,Delivered
+SHP-1851,WH-Bengaluru,Supp-A,Automotive,7,7,4153.81,441,0,Delivered
+SHP-1852,WH-Delhi,Supp-B,Automotive,8,7,4861.68,496,0,Delayed
+SHP-1853,WH-Mumbai,Supp-A,Industrial Parts,21,11,3381.22,103,0,Cancelled
+SHP-1854,WH-Mumbai,Supp-D,Industrial Parts,24,11,9359.27,438,0,Delivered
+SHP-1855,WH-Delhi,Supp-B,Electronics,19,11,1627.12,278,1,Delivered
+SHP-1856,WH-Mumbai,Supp-A,Industrial Parts,12,14,9370.62,206,1,Delayed
+SHP-1857,WH-Mumbai,Supp-A,Electronics,20,12,6996.73,34,0,Delivered
+SHP-1858,WH-Bengaluru,Supp-C,Electronics,6,9,5549.94,157,0,Delivered
+SHP-1859,WH-Mumbai,Supp-A,Automotive,20,9,810.26,127,0,Delivered
+SHP-1860,WH-Hyderabad,Supp-B,Automotive,12,8,5018.16,347,0,Delivered
+SHP-1861,WH-Delhi,Supp-B,Consumer Goods,13,11,4373.61,376,0,Delivered
+SHP-1862,WH-Bengaluru,Supp-C,Automotive,11,14,2031.58,347,0,Delivered
+SHP-1863,WH-Bengaluru,Supp-B,Automotive,9,8,6735.89,75,1,Delivered
+SHP-1864,WH-Hyderabad,Supp-D,Industrial Parts,10,6,9725.93,467,0,Delivered
+SHP-1865,WH-Delhi,Supp-B,Automotive,5,8,5840.79,310,0,Delivered
+SHP-1866,WH-Delhi,Supp-B,Consumer Goods,6,12,7290.16,379,0,Delivered
+SHP-1867,WH-Bengaluru,Supp-A,Industrial Parts,22,13,1150.28,184,0,Delayed
+SHP-1868,WH-Mumbai,Supp-A,Consumer Goods,9,7,4467.84,328,0,Delivered
+SHP-1869,WH-Bengaluru,Supp-B,Automotive,24,11,1605.41,85,0,Delivered
+SHP-1870,WH-Delhi,Supp-C,Consumer Goods,10,13,6321.56,470,0,Delayed
+SHP-1871,WH-Hyderabad,Supp-A,Industrial Parts,16,8,9415.58,123,0,Delayed
+SHP-1872,WH-Bengaluru,Supp-C,Electronics,16,14,6786.89,120,0,Delivered
+SHP-1873,WH-Delhi,Supp-B,Consumer Goods,17,7,1229.63,258,0,Delivered
+SHP-1874,WH-Bengaluru,Supp-B,Consumer Goods,15,9,3869.33,448,0,Delivered
+SHP-1875,WH-Mumbai,Supp-D,Industrial Parts,9,5,5731.3,212,0,Delayed
+SHP-1876,WH-Bengaluru,Supp-A,Industrial Parts,19,7,4330.47,156,0,Cancelled
+SHP-1877,WH-Bengaluru,Supp-B,Consumer Goods,11,12,8419.62,44,0,Delayed
+SHP-1878,WH-Delhi,Supp-D,Automotive,21,12,8239.37,496,0,Delivered
+SHP-1879,WH-Delhi,Supp-A,Consumer Goods,7,8,6312.39,318,0,Delivered
+SHP-1880,WH-Delhi,Supp-B,Industrial Parts,13,6,4047.85,35,0,Delivered
+SHP-1881,WH-Bengaluru,Supp-B,Electronics,3,12,2925.7,247,0,Delivered
+SHP-1882,WH-Mumbai,Supp-A,Electronics,8,12,1505.81,23,0,Delivered
+SHP-1883,WH-Hyderabad,Supp-A,Automotive,17,14,3871.53,383,0,Delivered
+SHP-1884,WH-Hyderabad,Supp-A,Consumer Goods,4,8,4425.14,54,0,Delivered
+SHP-1885,WH-Delhi,Supp-B,Electronics,14,7,6920.32,437,1,Delivered
+SHP-1886,WH-Delhi,Supp-B,Consumer Goods,4,6,6752.52,225,0,Delivered
+SHP-1887,WH-Bengaluru,Supp-D,Industrial Parts,19,13,1166.03,242,1,Delivered
+SHP-1888,WH-Hyderabad,Supp-C,Electronics,12,5,4254.96,202,0,Delivered
+SHP-1889,WH-Delhi,Supp-A,Automotive,9,11,2226.9,60,0,Delivered
+SHP-1890,WH-Mumbai,Supp-B,Industrial Parts,7,9,1989.72,436,1,Delayed
+SHP-1891,WH-Mumbai,Supp-B,Automotive,2,12,8359.37,384,0,Delivered
+SHP-1892,WH-Delhi,Supp-A,Industrial Parts,2,8,898.19,223,0,Cancelled
+SHP-1893,WH-Delhi,Supp-C,Electronics,24,11,4482.24,160,0,Delivered
+SHP-1894,WH-Hyderabad,Supp-A,Automotive,9,9,2097.93,449,0,Delivered
+SHP-1895,WH-Hyderabad,Supp-C,Automotive,6,9,8853.64,284,0,Delivered
+SHP-1896,WH-Bengaluru,Supp-B,Industrial Parts,17,13,5791.88,347,0,Delivered
+SHP-1897,WH-Hyderabad,Supp-C,Automotive,12,13,2698.12,85,1,Delayed
+SHP-1898,WH-Mumbai,Supp-D,Industrial Parts,6,13,5273.06,448,0,Delivered
+SHP-1899,WH-Mumbai,Supp-B,Industrial Parts,5,10,7449.12,229,1,Delayed
+SHP-1900,WH-Delhi,Supp-D,Industrial Parts,7,10,9602.12,357,1,Delivered
+SHP-1901,WH-Hyderabad,Supp-A,Industrial Parts,15,9,2594.24,453,0,Delayed
+SHP-1902,WH-Bengaluru,Supp-A,Electronics,23,13,8918.73,196,0,Delivered
+SHP-1903,WH-Mumbai,Supp-A,Industrial Parts,20,14,9375.89,298,1,Delayed
+SHP-1904,WH-Mumbai,Supp-C,Consumer Goods,10,12,9206.0,412,1,Delivered
+SHP-1905,WH-Bengaluru,Supp-B,Automotive,13,11,6536.44,37,0,Delivered
+SHP-1906,WH-Bengaluru,Supp-A,Consumer Goods,12,11,6483.3,388,0,Delivered
+SHP-1907,WH-Mumbai,Supp-A,Electronics,15,10,4330.5,189,0,Delayed
+SHP-1908,WH-Mumbai,Supp-B,Consumer Goods,24,9,7647.78,262,0,Delivered
+SHP-1909,WH-Bengaluru,Supp-A,Automotive,17,8,5547.29,135,0,Delivered
+SHP-1910,WH-Mumbai,Supp-D,Consumer Goods,2,7,6935.66,186,0,Delayed
+SHP-1911,WH-Delhi,Supp-B,Electronics,14,7,4570.35,46,0,Delivered
+SHP-1912,WH-Delhi,Supp-B,Industrial Parts,24,10,7449.22,419,0,Delivered
+SHP-1913,WH-Bengaluru,Supp-B,Consumer Goods,22,8,8332.48,108,0,Delivered
+SHP-1914,WH-Hyderabad,Supp-D,Electronics,22,10,1891.14,107,0,Delivered
+SHP-1915,WH-Bengaluru,Supp-B,Electronics,14,7,8412.83,136,0,Delayed
+SHP-1916,WH-Bengaluru,Supp-D,Automotive,3,8,5632.82,492,0,Delayed
+SHP-1917,WH-Hyderabad,Supp-B,Automotive,5,13,8524.33,177,0,Delivered
+SHP-1918,WH-Hyderabad,Supp-C,Consumer Goods,7,9,4597.37,89,0,Cancelled
+SHP-1919,WH-Hyderabad,Supp-A,Industrial Parts,24,11,4100.88,303,0,Delivered
+SHP-1920,WH-Delhi,Supp-C,Electronics,6,14,9193.08,342,1,Delivered
+SHP-1921,WH-Mumbai,Supp-A,Consumer Goods,4,6,2886.11,135,0,Delivered
+SHP-1922,WH-Delhi,Supp-D,Electronics,2,9,8520.02,352,0,Delivered
+SHP-1923,WH-Mumbai,Supp-C,Electronics,5,13,5098.2,319,0,Delivered
+SHP-1924,WH-Delhi,Supp-B,Industrial Parts,21,7,5383.91,159,1,Delayed
+SHP-1925,WH-Mumbai,Supp-A,Industrial Parts,3,13,3430.45,25,0,Delayed
+SHP-1926,WH-Delhi,Supp-A,Consumer Goods,6,10,5943.9,37,0,Delivered
+SHP-1927,WH-Hyderabad,Supp-C,Industrial Parts,4,8,3589.51,428,0,Delivered
+SHP-1928,WH-Bengaluru,Supp-D,Industrial Parts,10,11,873.06,453,0,Delivered
+SHP-1929,WH-Delhi,Supp-C,Consumer Goods,21,12,3083.99,182,0,Delayed
+SHP-1930,WH-Mumbai,Supp-D,Industrial Parts,7,10,560.6,55,0,Delayed
+SHP-1931,WH-Hyderabad,Supp-D,Automotive,19,9,9794.37,337,0,Delivered
+SHP-1932,WH-Delhi,Supp-A,Electronics,7,10,9674.6,245,0,Delayed
+SHP-1933,WH-Delhi,Supp-C,Electronics,20,9,4253.98,448,0,Delivered
+SHP-1934,WH-Hyderabad,Supp-C,Electronics,13,12,7419.52,223,0,Delivered
+SHP-1935,WH-Delhi,Supp-D,Electronics,12,5,3785.16,94,0,Delivered
+SHP-1936,WH-Bengaluru,Supp-C,Consumer Goods,3,11,6875.38,291,0,Delivered
+SHP-1937,WH-Delhi,Supp-B,Electronics,16,14,8151.59,241,0,Delivered
+SHP-1938,WH-Bengaluru,Supp-B,Electronics,13,14,9494.18,94,0,Delivered
+SHP-1939,WH-Bengaluru,Supp-C,Electronics,13,6,4302.02,418,0,Delivered
+SHP-1940,WH-Hyderabad,Supp-C,Electronics,10,13,7941.33,498,0,Delivered
+SHP-1941,WH-Delhi,Supp-D,Automotive,22,5,3026.32,74,1,Delivered
+SHP-1942,WH-Hyderabad,Supp-B,Electronics,3,14,9908.16,143,0,Delivered
+SHP-1943,WH-Delhi,Supp-B,Automotive,23,10,744.81,160,0,Delivered
+SHP-1944,WH-Delhi,Supp-A,Consumer Goods,4,13,6233.52,124,0,Cancelled
+SHP-1945,WH-Mumbai,Supp-D,Industrial Parts,13,5,6765.31,73,0,Delivered
+SHP-1946,WH-Delhi,Supp-A,Electronics,17,8,7036.43,352,0,Delivered
+SHP-1947,WH-Hyderabad,Supp-B,Industrial Parts,22,8,1643.68,436,0,Delivered
+SHP-1948,WH-Bengaluru,Supp-D,Industrial Parts,2,13,9416.03,372,0,Delayed
+SHP-1949,WH-Delhi,Supp-C,Consumer Goods,22,9,2221.24,416,0,Cancelled
+SHP-1950,WH-Mumbai,Supp-D,Industrial Parts,4,9,6416.16,361,0,Delivered
+SHP-1951,WH-Hyderabad,Supp-C,Automotive,21,10,2615.42,167,0,Delivered
+SHP-1952,WH-Delhi,Supp-C,Industrial Parts,3,5,3418.56,86,0,Delayed
+SHP-1953,WH-Hyderabad,Supp-D,Industrial Parts,10,5,5691.36,155,0,Delivered
+SHP-1954,WH-Mumbai,Supp-C,Industrial Parts,20,13,4463.34,352,0,Delivered
+SHP-1955,WH-Mumbai,Supp-A,Electronics,16,7,2022.14,472,0,Delivered
+SHP-1956,WH-Hyderabad,Supp-B,Electronics,19,8,2123.9,234,1,Delivered
+SHP-1957,WH-Delhi,Supp-C,Automotive,12,5,4472.38,414,1,Delivered
+SHP-1958,WH-Bengaluru,Supp-A,Automotive,24,13,7694.19,322,0,Delivered
+SHP-1959,WH-Mumbai,Supp-C,Electronics,17,12,9030.66,112,0,Delivered
+SHP-1960,WH-Delhi,Supp-B,Automotive,23,6,1299.21,416,0,Delayed
+SHP-1961,WH-Delhi,Supp-A,Electronics,18,12,4234.49,356,0,Delivered
+SHP-1962,WH-Bengaluru,Supp-B,Consumer Goods,6,11,1452.33,310,0,Delayed
+SHP-1963,WH-Mumbai,Supp-B,Industrial Parts,13,10,657.63,437,0,Delivered
+SHP-1964,WH-Mumbai,Supp-A,Industrial Parts,12,5,6786.33,475,0,Delivered
+SHP-1965,WH-Delhi,Supp-A,Automotive,16,11,6223.27,97,1,Delivered
+SHP-1966,WH-Delhi,Supp-A,Electronics,4,14,2048.68,380,0,Delayed
+SHP-1967,WH-Bengaluru,Supp-D,Electronics,2,11,2721.22,312,0,Delayed
+SHP-1968,WH-Bengaluru,Supp-A,Automotive,21,13,725.22,177,0,Delivered
+SHP-1969,WH-Mumbai,Supp-A,Electronics,17,5,8432.0,444,0,Delayed
+SHP-1970,WH-Hyderabad,Supp-A,Consumer Goods,3,6,9759.56,179,0,Delivered
+SHP-1971,WH-Mumbai,Supp-A,Industrial Parts,3,13,1786.87,144,0,Cancelled
+SHP-1972,WH-Delhi,Supp-C,Automotive,4,13,2699.01,59,0,Delivered
+SHP-1973,WH-Mumbai,Supp-D,Automotive,9,10,8749.89,441,0,Delayed
+SHP-1974,WH-Hyderabad,Supp-B,Electronics,16,10,9301.41,349,0,Delivered
+SHP-1975,WH-Bengaluru,Supp-A,Automotive,8,8,4486.46,356,0,Delivered
+SHP-1976,WH-Hyderabad,Supp-C,Consumer Goods,7,8,980.91,143,0,Delivered
+SHP-1977,WH-Hyderabad,Supp-C,Electronics,10,9,874.22,356,0,Delivered
+SHP-1978,WH-Hyderabad,Supp-C,Electronics,21,7,5952.52,146,0,Delivered
+SHP-1979,WH-Bengaluru,Supp-B,Electronics,2,5,4232.5,254,0,Delivered
+SHP-1980,WH-Hyderabad,Supp-A,Electronics,9,5,772.2,118,0,Delivered
+SHP-1981,WH-Hyderabad,Supp-D,Consumer Goods,24,11,6040.9,322,0,Delivered
+SHP-1982,WH-Hyderabad,Supp-D,Electronics,24,5,607.37,296,0,Delivered
+SHP-1983,WH-Delhi,Supp-C,Automotive,4,5,7980.03,30,1,Delivered
+SHP-1984,WH-Hyderabad,Supp-B,Consumer Goods,5,7,3411.11,99,0,Cancelled
+SHP-1985,WH-Bengaluru,Supp-B,Industrial Parts,16,14,882.45,305,0,Delivered
+SHP-1986,WH-Hyderabad,Supp-B,Industrial Parts,7,8,6089.35,121,0,Delivered
+SHP-1987,WH-Hyderabad,Supp-D,Automotive,16,8,4278.0,310,1,Delivered
+SHP-1988,WH-Bengaluru,Supp-C,Automotive,22,6,9751.1,86,0,Delivered
+SHP-1989,WH-Hyderabad,Supp-A,Consumer Goods,4,5,5669.89,186,0,Delivered
+SHP-1990,WH-Bengaluru,Supp-D,Industrial Parts,22,7,3114.77,352,0,Delivered
+SHP-1991,WH-Hyderabad,Supp-C,Industrial Parts,22,8,7239.67,157,0,Delivered
+SHP-1992,WH-Bengaluru,Supp-C,Industrial Parts,15,7,3079.17,110,0,Cancelled
+SHP-1993,WH-Hyderabad,Supp-A,Industrial Parts,21,12,9090.31,255,0,Delivered
+SHP-1994,WH-Hyderabad,Supp-A,Industrial Parts,15,14,4059.86,126,0,Delivered
+SHP-1995,WH-Delhi,Supp-A,Electronics,5,5,5723.75,101,1,Delivered
+SHP-1996,WH-Delhi,Supp-B,Automotive,13,6,980.44,410,0,Delivered
+SHP-1997,WH-Hyderabad,Supp-A,Electronics,18,11,4548.15,37,0,Delayed
+SHP-1998,WH-Hyderabad,Supp-C,Industrial Parts,8,8,8407.45,434,0,Delivered
+SHP-1999,WH-Mumbai,Supp-A,Consumer Goods,10,12,8153.66,459,0,Delivered
