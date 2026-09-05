@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
 from sql_engine import run_sql_queries
+
+DATA_PATH = Path(__file__).resolve().parent / "data" / "supply_chain_data.csv"
 
 st.set_page_config(page_title="Supply Chain Risk Intelligence", layout="wide")
 st.title("📦 Enterprise Supply Chain Risk & Inventory Intelligence")
@@ -9,7 +12,7 @@ st.markdown("Automated analytics engine evaluating supplier delays, inventory co
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('data/supply_chain_data.csv')
+    return pd.read_csv(DATA_PATH)
 
 try:
     df = load_data()
