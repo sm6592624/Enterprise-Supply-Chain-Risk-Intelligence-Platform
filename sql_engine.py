@@ -1,13 +1,14 @@
-import sqlite3
 from pathlib import Path
 
+import sqlite3
 import pandas as pd
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "supply_chain_data.csv"
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data" / "supply_chain_data.csv"
 
 def run_sql_queries():
     conn = sqlite3.connect(':memory:')
-    df = pd.read_csv(DATA_PATH)
+    df = pd.read_csv(DATA_FILE)
     df.to_sql('supply_chain', conn, index=False, if_exists='replace')
 
     query = """

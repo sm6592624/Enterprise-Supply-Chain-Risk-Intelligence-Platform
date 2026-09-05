@@ -1,10 +1,14 @@
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from pathlib import Path
+
+from generate_data import generate_supply_chain_data
 from sql_engine import run_sql_queries
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "supply_chain_data.csv"
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data" / "supply_chain_data.csv"
 
 st.set_page_config(page_title="Supply Chain Risk Intelligence", layout="wide")
 st.title("📦 Enterprise Supply Chain Risk & Inventory Intelligence")
@@ -12,12 +16,14 @@ st.markdown("Automated analytics engine evaluating supplier delays, inventory co
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(DATA_PATH)
+    if not DATA_FILE.exists():
+        generate_supply_chain_data()
+    return pd.read_csv(DATA_FILE)
 
 try:
     df = load_data()
 except FileNotFoundError:
-    st.error("Dataset not found. Please execute `python generate_data.py` first.")
+    st.error("Dataset could not be loaded. Please try reloading the app.")
     st.stop()
 
 col1, col2, col3, col4 = st.columns(4)

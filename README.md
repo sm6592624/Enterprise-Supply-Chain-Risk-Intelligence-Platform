@@ -1,5 +1,12 @@
 Enterprise Supply Chain Risk Intelligence Platform
 
+Streamlit Deployment
+1. Push this repository to GitHub.
+2. In Streamlit Community Cloud, create a new app from the repo.
+3. Set the main file path to `app.py`.
+4. Ensure `requirements.txt` is present in the repository root.
+5. Deploy the app.
+
 Execution Instructions
 1. Initialize virtual environment: python -m venv venv
 2. Activate environment: source venv/bin/activate (Linux/Mac) or venv\Scripts\activate (Windows)

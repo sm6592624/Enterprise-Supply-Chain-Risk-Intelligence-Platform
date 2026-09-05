@@ -1,6 +1,11 @@
 import pandas as pd
 import numpy as np
 import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / 'data'
+DATA_FILE = DATA_DIR / 'supply_chain_data.csv'
 
 def generate_supply_chain_data():
     np.random.seed(42)
@@ -22,9 +27,9 @@ def generate_supply_chain_data():
         'shipment_status': np.random.choice(['Delivered', 'Delayed', 'Cancelled'], n, p=[0.75, 0.20, 0.05])
     }
     df = pd.DataFrame(data)
-    os.makedirs('data', exist_ok=True)
-    df.to_csv('data/supply_chain_data.csv', index=False)
-    print("Dataset generated at data/supply_chain_data.csv")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    df.to_csv(DATA_FILE, index=False)
+    print(f"Dataset generated at {DATA_FILE}")
 
 if __name__ == '__main__':
     generate_supply_chain_data()
